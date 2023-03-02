@@ -3103,3 +3103,613 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.02-17.53.18:915][906]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level018BEF3FBF407C78A50F35919AB325B394.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/levels/level01.umap'
 [2023.03.02-17.53.18:938][906]AssetCheck: New page: Asset Save: level01
 [2023.03.02-17.53.18:938][906]LogContentValidation: Display: Validating World /Game/levels/level01.level01
+[2023.03.02-17.58.56:325][206]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-17.58.56:329][206]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-17.58.56:329][206]LogPlayLevel: [PlayLevel] Compiling BP_Crystal_01 before play...
+[2023.03.02-17.58.56:361][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.03.02-17.58.56:363][206]LogPlayLevel: PlayLevel: Blueprint regeneration took 33 ms (1 blueprints)
+[2023.03.02-17.58.56:363][206]PIE: New page: PIE session: level01 (2 mar 2023, 19:58:56)
+[2023.03.02-17.58.56:363][206]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-17.58.56:367][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003898s)
+[2023.03.02-17.58.56:368][206]LogAIModule: Creating AISystem for world level01
+[2023.03.02-17.58.56:368][206]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2023.03.02-17.58.56:368][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004960s)
+[2023.03.02-17.58.56:383][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.02-17.58.56:383][206]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-17.58.56:383][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-17.58.56:383][206]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-17.58.56:383][206]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-17.58.56:383][206]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-17.58.56:383][206]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-17.58.56:386][206]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-17.58.56:386][206]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-17.58.56:391][206]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-17.58.56:392][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-17.58.56:392][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-17.58.56:392][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-17.58.56:393][206]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-17.58.56:393][206]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-17.58.56:393][206]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-17.58.56:394][206]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-17.58.56:394][206]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-17.58.56:394][206]LogInit: FAudioDevice initialized.
+[2023.03.02-17.58.56:394][206]LogAudio: Display: Audio Device (ID: 22) registered with world 'level01'.
+[2023.03.02-17.58.56:405][206]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-17.58.56:406][206]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-18.58.56
+[2023.03.02-17.58.56:406][206]LogWorld: Bringing up level for play took: 0.001051
+[2023.03.02-17.58.56:406][206]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2023.03.02-17.58.56:410][206]PIE: Server logged in
+[2023.03.02-17.58.56:410][206]PIE: Play in editor total start time 0,081 seconds.
+[2023.03.02-17.59.04:320][679]Cmd: LevelEditor.ToggleImmersive
+[2023.03.02-17.59.05:979][776]Cmd: LevelEditor.ToggleImmersive
+[2023.03.02-18.25.10:289][704]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.03.02-18.26.03:925][823]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-18.26.03:930][823]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-18.26.20:815][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.26.20:815][833]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-18.26.20:815][833]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.26.20:815][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.26.20:822][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-18.26.20:826][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.26.20:837][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.26.20:837][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.26.20:838][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.26.20:844][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.03.02-18.26.20:889][835]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.03.02-18.26.33:622][597]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-18.26.33:660][597]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-18.27.26:137][335]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.03.02-18.29.02:798][835]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-18.29.02:802][835]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-18.29.20:357][690]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-18.29.20:372][690]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-18.29.26:142][892]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2023.03.02-18.29.26:142][892]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-18.29.29:769][ 92]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.03.02-18.29.29:778][ 92]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.03.02-18.29.49:211][258]LogContentBrowser: Attempting asset rename: NewMaterial -> mat_emission
+[2023.03.02-18.29.49:212][258]LogContentBrowser: End creating deferred item NewMaterial
+[2023.03.02-18.30.14:218][889]LogContentBrowser: Attempting asset rename: mat_emission -> mat_emission_01
+[2023.03.02-18.30.14:269][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mat_emission_01" FILE="../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/Materials/mat_emission_01.uasset" SILENT=true
+[2023.03.02-18.30.14:274][889]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/mat_emission_01E48486294E879FEF6A7C29A0B4C1E1EA.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/Materials/mat_emission_01.uasset'
+[2023.03.02-18.30.14:330][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.03.02-18.30.14:356][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.03.02-18.30.14:369][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.03.02-18.30.14:402][889]AssetCheck: New page: Asset Save: mat_emission_01
+[2023.03.02-18.30.14:402][889]LogContentValidation: Display: Validating Material /Game/Materials/mat_emission_01.mat_emission_01
+[2023.03.02-18.30.22:629][ 56]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/mat_emission_01.mat_emission_01
+[2023.03.02-18.30.22:632][ 56]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: A22BEF365A624634E3161CDAB58E9E8BB32F05E6), compiling. 
+[2023.03.02-18.30.22:639][ 56]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.03.02-18.30.22:703][ 56]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: E7869F164C57E30596A522221C8DEFE12005978A), compiling. 
+[2023.03.02-18.30.22:705][ 56]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 27A760364107476F1F8BBB5510CD8BB6762978AC), compiling. 
+[2023.03.02-18.30.22:716][ 56]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.30.22:761][ 57]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.30.22:761][ 57]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.30.22:761][ 57]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.30.22:761][ 57]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.30.22:761][ 57]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.30.22:838][ 62]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.30.22:838][ 62]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.30.22:838][ 62]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.30.22:838][ 62]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.30.22:838][ 62]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.30.23:299][ 88]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-18.30.23:299][ 88]LogShaderCompilers: Display: Total job queries 150, among them cache hits 8 (5.33%)
+[2023.03.02-18.30.23:299][ 88]LogShaderCompilers: Display: Tracking 111 distinct input hashes that result in 35 distinct outputs (31.53%)
+[2023.03.02-18.30.23:299][ 88]LogShaderCompilers: Display: RAM used: 0.20 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2023.03.02-18.30.23:299][ 88]LogShaderCompilers: Display: ================================================
+[2023.03.02-18.30.23:369][ 92]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.30.24:350][131]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.30.24:350][131]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.30.24:350][131]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.30.24:350][131]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.30.48:191][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.03.02-18.30.48:204][202]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto5273294274BD6EE08F3B1DB9B34E3172A.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto5.umap'
+[2023.03.02-18.30.48:205][202]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.028
+[2023.03.02-18.30.48:205][202]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2023.03.02-18.30.48:205][202]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/Pawns/BP_ball_01] ([2] browsable assets)...
+[2023.03.02-18.30.48:222][202]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01]
+[2023.03.02-18.30.48:222][202]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/Pawns/BP_ball_01]
+[2023.03.02-18.30.48:229][202]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_ball_01_Auto5460669F34F3A1EBF9BD9E2B80FBF3881.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/blueprints/Pawns/BP_ball_01_Auto5.uasset'
+[2023.03.02-18.30.48:230][202]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/GameMode/BP_GameMode_01] ([2] browsable assets)...
+[2023.03.02-18.30.48:230][202]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/GameMode/BP_GameMode_01]
+[2023.03.02-18.30.48:233][202]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_GameMode_01_Auto5EED7DCF648C223E1550DFAAA0CA50C8D.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/blueprints/GameMode/BP_GameMode_01_Auto5.uasset'
+[2023.03.02-18.30.48:233][202]LogFileHelpers: Auto-saving content packages took 0.028
+[2023.03.02-18.32.42:597][711]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 36609CDF076202A06F3873AE6D85BD70F814D77B), compiling. 
+[2023.03.02-18.32.42:599][711]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.32.42:632][713]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.32.42:632][713]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.32.42:632][713]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.32.42:632][713]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.32.54:467][415]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 8E798AA104ABF6AEC7AD919D8B16BABE8BF43136), compiling. 
+[2023.03.02-18.32.54:474][415]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.32.54:481][416]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.32.54:493][417]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.32.55:087][450]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.32.55:688][486]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.32.55:688][486]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.32.55:688][486]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.32.55:688][486]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.32.56:813][553]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 28CC250F58CE4EBFA6B69E07AE4A0E7F19AAB688), compiling. 
+[2023.03.02-18.32.56:814][553]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.32.56:854][555]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.32.56:854][555]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.32.56:854][555]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.32.56:854][555]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.32.59:153][691]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 8C606ABC879F450CFC350B1F6FD61A9EF4BEA9DB), compiling. 
+[2023.03.02-18.32.59:155][691]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.32.59:187][693]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.32.59:187][693]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.32.59:187][693]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.32.59:187][693]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.01:128][809]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 24CD0946CFEDAD56579FF8AD435073EA77A6AD29), compiling. 
+[2023.03.02-18.33.01:129][809]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.01:164][811]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.01:164][811]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.01:164][811]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.01:164][811]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.02:007][861]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 2022B6FA1F8C8A6FB4171D44D62A025D19493308), compiling. 
+[2023.03.02-18.33.02:008][861]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 76F2C31FC1FB25F7C8D296137EA7A485AC2C1ABD), compiling. 
+[2023.03.02-18.33.02:010][861]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.02:048][863]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.02:048][863]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.33.02:048][863]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.33.02:048][863]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.02:050][863]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.02:050][863]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.02:050][863]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.02:050][863]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.07:232][171]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: F9E3F91C7A0BADE8735F5BCE92A437ACB1BA0AD7), compiling. 
+[2023.03.02-18.33.07:234][171]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2F474EA462B8D9A317CF83E7304E6DB5811E3D20), compiling. 
+[2023.03.02-18.33.07:236][171]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.07:260][173]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.07:277][174]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.07:277][174]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.07:277][174]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.07:277][174]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.08:094][223]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 8A4E006F90709D14A07DB5A8B418DFC6DFCDD661), compiling. 
+[2023.03.02-18.33.08:095][223]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E6E288C952D10297DE2A40F6B8B0D907D49E4E9C), compiling. 
+[2023.03.02-18.33.08:097][223]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.08:127][225]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.08:127][225]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.08:127][225]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.08:127][225]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.09:344][298]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: B6142D489805673BA9679782CD9F3CF7D5E80F60), compiling. 
+[2023.03.02-18.33.09:345][298]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 519B40B1DF01DC310668AB7F14FD5C64AD8E8978), compiling. 
+[2023.03.02-18.33.09:347][298]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.09:376][300]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.09:376][300]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.09:376][300]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.09:376][300]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.11:244][412]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 12325D6134F3107011C405D7C4E81EEEAE2ACE6B), compiling. 
+[2023.03.02-18.33.11:246][412]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5AD0F3654EC33B111147E5F7E7E9FFDEA8DBC5DB), compiling. 
+[2023.03.02-18.33.11:247][412]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.33.11:252][412]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.11:261][413]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.11:282][414]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.11:283][414]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.11:283][414]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.11:283][414]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.13:257][532]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: ADD433154C3552BEF96B5672436E8F383387DDD5), compiling. 
+[2023.03.02-18.33.13:258][532]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 42A5F6C2316290196E4DA78C77BACFD47F86D346), compiling. 
+[2023.03.02-18.33.13:261][532]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.13:268][533]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.13:283][534]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.13:771][560]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.14:203][586]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.14:203][586]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.14:203][586]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.14:203][586]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.19:018][736]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 90DDD52486FDFAFEAEAE90FF65EAEFDE6FF32AC0), compiling. 
+[2023.03.02-18.33.19:019][736]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3FB361962758CD306357440BBCCAAF20A82BF6DC), compiling. 
+[2023.03.02-18.33.19:021][736]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.19:028][737]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.19:028][737]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.33.19:028][737]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.33.19:028][737]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.33.19:046][738]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.19:555][766]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.19:967][788]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.19:967][788]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.19:967][788]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.19:967][788]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.24:602][ 63]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 5D35905444D1520FA1818D1EB2DC543E44CC2AFE), compiling. 
+[2023.03.02-18.33.24:603][ 63]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4C95AFE815428BEA178E119608339261CBC38FCF), compiling. 
+[2023.03.02-18.33.24:605][ 63]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.24:623][ 64]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-18.33.24:623][ 64]LogShaderCompilers: Display: Total job queries 321, among them cache hits 147 (45.79%)
+[2023.03.02-18.33.24:623][ 64]LogShaderCompilers: Display: Tracking 152 distinct input hashes that result in 42 distinct outputs (27.63%)
+[2023.03.02-18.33.24:623][ 64]LogShaderCompilers: Display: RAM used: 0.25 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2023.03.02-18.33.24:623][ 64]LogShaderCompilers: Display: ================================================
+[2023.03.02-18.33.24:635][ 65]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.24:635][ 65]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.24:635][ 65]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.24:635][ 65]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.25:503][117]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 12BACDD534B995426ADE7582F3645E68FE364DD1), compiling. 
+[2023.03.02-18.33.25:504][117]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 54B85CCD15AFEBDFE34C6508F72AB6F0DC01F4CA), compiling. 
+[2023.03.02-18.33.25:505][117]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.33.25:510][117]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.25:520][118]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.25:536][119]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.25:536][119]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.25:536][119]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.25:536][119]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.30:507][415]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: A4F6AA27C14A0DC020D505F282DB1CED8FA6D34A), compiling. 
+[2023.03.02-18.33.30:509][415]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 73534C614E9CAA9D330E6C1FC68FEB3EC32102A5), compiling. 
+[2023.03.02-18.33.30:510][415]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.30:540][417]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.30:540][417]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.30:540][417]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.30:540][417]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.31:256][460]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 5902736372E62A50A6D224E88A6D6E5DC5DBD3DD), compiling. 
+[2023.03.02-18.33.31:258][460]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9E5DB4E4E7E35BF89A31F7732F26D73FEFFB97E7), compiling. 
+[2023.03.02-18.33.31:259][460]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.33.31:263][460]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.31:294][462]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.31:294][462]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.31:294][462]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.31:294][462]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.37:329][793]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: F7E681F3A78AE0E49ED28A77609E2F0FC147A1CD), compiling. 
+[2023.03.02-18.33.37:330][793]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F7A3197A9B7709E9D320329EA75DA9C51544B754), compiling. 
+[2023.03.02-18.33.37:331][793]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.37:361][795]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.37:361][795]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.37:361][795]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.37:361][795]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.38:995][893]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 7750E3EF4AB0C204C703352DE7370B0DBAFC787D), compiling. 
+[2023.03.02-18.33.38:996][893]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 604139B72535AAEE2FC48AB442C50D33CF0BB409), compiling. 
+[2023.03.02-18.33.38:997][893]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.33.39:003][893]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.39:012][894]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.39:031][895]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.39:031][895]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.39:031][895]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.39:031][895]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.41:281][ 28]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: F4BFFF5CAC2180A47A76A0477B0C492B8989D3CD), compiling. 
+[2023.03.02-18.33.41:282][ 28]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B01796B40490974A37F6AC34C9DE61473E05100C), compiling. 
+[2023.03.02-18.33.41:284][ 28]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.41:314][ 30]MaterialEditorStats: Base pass shader: 117 instructions
+[2023.03.02-18.33.41:314][ 30]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2023.03.02-18.33.41:314][ 30]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.41:314][ 30]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.43:796][178]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: A5E6DEF7C62BDD38B5BB4C81B9C92ABEAEE4D680), compiling. 
+[2023.03.02-18.33.43:797][178]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A99CFD73D8772059DA570F32AA62FB47ED1F8329), compiling. 
+[2023.03.02-18.33.43:799][178]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.43:806][179]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.43:823][180]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.43:824][180]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.44:110][197]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.03.02-18.33.44:110][197]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.03.02-18.33.44:110][197]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.44:446][216]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.45:154][257]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.02-18.33.45:154][257]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.02-18.33.45:154][257]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.45:154][257]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.46:504][338]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 0A7EE2AD9C85D9ED33AB4558997606FFA6669CAD), compiling. 
+[2023.03.02-18.33.46:505][338]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AFEAD02AB931CC2CE1766E62EE7CD511AEB1EA0D), compiling. 
+[2023.03.02-18.33.46:507][338]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.46:514][339]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.46:529][340]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.47:119][368]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.47:569][395]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.02-18.33.47:569][395]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.02-18.33.47:569][395]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.47:569][395]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.49:670][521]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 083C488B8D16F20B6A619359505482FBB0F780C7), compiling. 
+[2023.03.02-18.33.49:671][521]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7D7EE48281CCFA6BA997F2D1DC9905369BD88E4A), compiling. 
+[2023.03.02-18.33.49:672][521]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.49:679][522]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.33.49:698][523]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.33.49:699][523]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.49:699][523]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.49:699][523]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.03.02-18.33.49:699][523]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2023.03.02-18.33.49:699][523]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.33.50:277][552]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.50:346][556]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 649C63BC242DA08B2F6EBA2864185A274DA121FD), compiling. 
+[2023.03.02-18.33.50:349][556]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2F9DE12EFF3B4090CE0198D808DA9618835449E1), compiling. 
+[2023.03.02-18.33.50:351][556]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.33.50:359][556]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.33.50:376][557]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.50:718][577]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.02-18.33.50:718][577]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.02-18.33.50:718][577]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.33.50:718][577]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.33.57:090][869]LogSlate: Window 'Message' being destroyed
+[2023.03.02-18.33.57:095][869]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/mat_emission_01.mat_emission_01
+(Selecting 'No' will cause all changes to be lost!)
+[2023.03.02-18.34.15:838][152]LogSlate: Window 'Message' being destroyed
+[2023.03.02-18.34.15:843][152]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/mat_emission_01.mat_emission_01
+(Selecting 'No' will cause all changes to be lost!)
+[2023.03.02-18.34.16:140][152]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: C90A1577A5CC0B9AF9240826B59179BC384361B7), compiling. 
+[2023.03.02-18.34.16:166][152]LogMaterial: Display: Missing cached shadermap for mat_emission_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 5E9C8C098106DED7CBBF8380AD411E98A7393D3D), compiling. 
+[2023.03.02-18.34.16:181][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.02-18.34.16:193][152]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.34.16:514][152]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.03.02-18.34.16:514][152]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.34.16:515][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.03.02-18.34.16:523][152]LogSlate: Window 'mat_emission_01' being destroyed
+[2023.03.02-18.34.16:524][152]LogSlate: Window 'mat_emission_01' being destroyed
+[2023.03.02-18.34.16:529][152]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.34.16:529][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.34.16:562][154]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2023.03.02-18.34.16:582][155]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.34.23:006][537]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/mat_emission_01.mat_emission_01
+[2023.03.02-18.34.23:007][537]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 299CAEFBFF6F4C5C44DD62DE71FE5F3E915A4707), compiling. 
+[2023.03.02-18.34.23:014][537]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.03.02-18.34.23:067][537]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 041F6D4B63DA11E77EDBA6A94CAACAA047755D57), compiling. 
+[2023.03.02-18.34.23:068][537]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4E473017E512D6B700A3F93DB4E59D824F418914), compiling. 
+[2023.03.02-18.34.23:070][537]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4CF826426552C91E61D02B6E837CE7B9B3741D87), compiling. 
+[2023.03.02-18.34.23:081][537]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.34.23:127][538]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.34.23:623][562]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.34.24:082][589]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.02-18.34.24:082][589]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.02-18.34.24:082][589]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.34.24:082][589]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.34.31:526][  1]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.35.25:247][642]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.35.25:250][642]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.35.25:255][642]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.35.25:255][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.35.25:275][642]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.35.25:275][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.35.33:156][113]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-18.35.33:159][113]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-18.35.33:160][113]LogPlayLevel: [PlayLevel] Compiling BP_ball_01 before play...
+[2023.03.02-18.35.33:168][113]LogPlayLevel: [PlayLevel] Compiling BP_Crystal_01 before play...
+[2023.03.02-18.35.33:199][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.03.02-18.35.33:202][113]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (2 blueprints)
+[2023.03.02-18.35.33:202][113]PIE: New page: PIE session: level01 (2 mar 2023, 20:35:33)
+[2023.03.02-18.35.33:249][113]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-18.35.33:254][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004503s)
+[2023.03.02-18.35.33:257][113]LogAIModule: Creating AISystem for world level01
+[2023.03.02-18.35.33:257][113]LogPlayLevel: PIE: World Init took: (0.003523s)
+[2023.03.02-18.35.33:257][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.008174s)
+[2023.03.02-18.35.33:272][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.03.02-18.35.33:272][113]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-18.35.33:272][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-18.35.33:272][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-18.35.33:272][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-18.35.33:272][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-18.35.33:272][113]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-18.35.33:275][113]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-18.35.33:275][113]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-18.35.33:279][113]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-18.35.33:280][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-18.35.33:280][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-18.35.33:280][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-18.35.33:280][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-18.35.33:280][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-18.35.33:280][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-18.35.33:281][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-18.35.33:281][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-18.35.33:281][113]LogInit: FAudioDevice initialized.
+[2023.03.02-18.35.33:281][113]LogAudio: Display: Audio Device (ID: 23) registered with world 'level01'.
+[2023.03.02-18.35.33:286][113]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-18.35.33:288][113]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-19.35.33
+[2023.03.02-18.35.33:288][113]LogWorld: Bringing up level for play took: 0.001047
+[2023.03.02-18.35.33:288][113]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2023.03.02-18.35.33:290][113]PIE: Server logged in
+[2023.03.02-18.35.33:290][113]PIE: Play in editor total start time 0,132 seconds.
+[2023.03.02-18.35.36:131][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.35.36:131][281]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-18.35.36:131][281]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.35.36:131][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.35.36:140][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-18.35.36:143][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.35.36:156][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.35.36:156][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.35.36:157][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.35.36:161][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.03.02-18.35.36:207][284]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.03.02-18.37.40:914][989]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/mat_emission_01.mat_emission_01
+[2023.03.02-18.37.40:915][989]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 62034864AF24CCD55252913B91979CBCA5DBCC6A), compiling. 
+[2023.03.02-18.37.40:922][989]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.03.02-18.37.40:979][989]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D1037CB4E76BDC7E92821B3CE30A4C29428F7515), compiling. 
+[2023.03.02-18.37.40:981][989]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 969948D4974B88917030BA5BDAB3A2B526DFA3C3), compiling. 
+[2023.03.02-18.37.40:982][989]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant4Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2240E6299E1AE7554328D2BCA36F2048896F9B9E), compiling. 
+[2023.03.02-18.37.40:994][989]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-18.37.41:035][990]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-18.37.41:138][996]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-18.37.41:138][996]LogShaderCompilers: Display: Total job queries 559, among them cache hits 295 (52.77%)
+[2023.03.02-18.37.41:138][996]LogShaderCompilers: Display: Tracking 204 distinct input hashes that result in 68 distinct outputs (33.33%)
+[2023.03.02-18.37.41:138][996]LogShaderCompilers: Display: RAM used: 0.40 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2023.03.02-18.37.41:138][996]LogShaderCompilers: Display: ================================================
+[2023.03.02-18.37.41:642][ 25]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.37.42:840][ 57]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.02-18.37.42:840][ 57]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.02-18.37.42:840][ 57]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-18.37.42:840][ 57]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-18.38.10:520][695]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.38.10:743][695]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.38.33:875][ 11]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.02-18.39.01:412][655]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.39.01:417][655]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.39.01:444][655]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.39.01:444][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.39.01:465][655]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.39.01:465][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.39.11:218][238]Cmd: DELETE
+[2023.03.02-18.39.11:218][238]Cmd: ACTOR DELETE
+[2023.03.02-18.39.11:221][238]LogEditorActor: Deleted Actor: SkyLight
+[2023.03.02-18.39.11:240][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.03.02-18.39.11:242][238]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.03.02-18.39.43:226][260]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.40.03:606][455]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.40.03:611][455]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.40.03:613][455]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.40.03:613][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.40.08:135][721]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.40.25:754][744]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.40.25:758][744]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.40.25:759][744]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.40.25:759][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.40.30:997][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Crystal_01_C (BP_Crystal_2)
+[2023.03.02-18.40.31:519][ 84]LogEditorViewport: Clicking on Actor (LMB): BP_Crystal_01_C (BP_Crystal_3)
+[2023.03.02-18.40.40:473][621]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-18.40.40:476][621]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-18.40.40:476][621]LogPlayLevel: [PlayLevel] Compiling BP_Crystal_01 before play...
+[2023.03.02-18.40.40:512][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.03.02-18.40.40:516][621]LogPlayLevel: PlayLevel: Blueprint regeneration took 39 ms (1 blueprints)
+[2023.03.02-18.40.40:516][621]PIE: New page: PIE session: level01 (2 mar 2023, 20:40:40)
+[2023.03.02-18.40.40:516][621]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-18.40.40:520][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003751s)
+[2023.03.02-18.40.40:520][621]LogAIModule: Creating AISystem for world level01
+[2023.03.02-18.40.40:520][621]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2023.03.02-18.40.40:520][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004603s)
+[2023.03.02-18.40.40:534][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.03.02-18.40.40:534][621]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-18.40.40:534][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-18.40.40:534][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-18.40.40:535][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-18.40.40:535][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-18.40.40:535][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-18.40.40:535][621]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-18.40.40:537][621]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-18.40.40:537][621]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-18.40.40:542][621]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-18.40.40:542][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-18.40.40:542][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-18.40.40:542][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-18.40.40:543][621]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-18.40.40:543][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-18.40.40:543][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-18.40.40:544][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-18.40.40:544][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-18.40.40:544][621]LogInit: FAudioDevice initialized.
+[2023.03.02-18.40.40:544][621]LogAudio: Display: Audio Device (ID: 24) registered with world 'level01'.
+[2023.03.02-18.40.40:553][621]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-18.40.40:554][621]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-19.40.40
+[2023.03.02-18.40.40:554][621]LogWorld: Bringing up level for play took: 0.001099
+[2023.03.02-18.40.40:555][621]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2023.03.02-18.40.40:556][621]PIE: Server logged in
+[2023.03.02-18.40.40:557][621]PIE: Play in editor total start time 0,081 seconds.
+[2023.03.02-18.40.44:322][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.40.44:322][845]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-18.40.44:322][845]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.40.44:322][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.40.44:330][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-18.40.44:338][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.40.44:350][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-18.40.44:350][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.40.44:351][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-18.40.44:355][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-18.40.44:406][847]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.03.02-18.40.45:523][912]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.41.21:449][ 25]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.41.21:454][ 25]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.41.21:456][ 25]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.41.21:456][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.41.28:009][415]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-18.41.47:528][549]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.41.47:532][549]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-18.41.47:533][549]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.41.47:533][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-18.42.13:578][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.02-18.42.13:593][737]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto6D0A4463249873906B8BC118A103F3A17.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto6.umap'
+[2023.03.02-18.42.13:594][737]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.034
+[2023.03.02-18.42.13:594][737]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2023.03.02-18.42.13:595][737]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/mat_emission_01] ([1] browsable assets)...
+[2023.03.02-18.42.13:610][737]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/mat_emission_01.mat_emission_01]
+[2023.03.02-18.42.13:610][737]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/mat_emission_01]
+[2023.03.02-18.42.13:615][737]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/mat_emission_01_Auto694883214460BA1277D219DB34104FFA9.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Materials/mat_emission_01_Auto6.uasset'
+[2023.03.02-18.42.13:616][737]LogFileHelpers: Auto-saving content packages took 0.021
+[2023.03.02-18.42.40:493][ 57]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-18.43.49:376][385]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-18.43.49:380][385]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-18.43.49:381][385]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-18.43.49:381][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
