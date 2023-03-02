@@ -1862,3 +1862,1244 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.02-13.20.00:731][549]LogRenderer: Reallocating scene render targets to support 1444x780 Format 10 NumSamples 1 (Frame:65429).
 [2023.03.02-13.20.00:797][550]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:65432).
 [2023.03.02-13.20.47:377][410]LogSlate: Took 0.005372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.02-13.27.23:327][591]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-13.27.23:340][591]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-13.27.26:753][  1]LogContentBrowser: Attempting asset rename: NewFolder -> blueprints
+[2023.03.02-13.27.26:753][  1]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-13.28.58:476][810]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-13.28.58:483][810]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-13.29.01:427][984]LogContentBrowser: Attempting asset rename: NewFolder -> actors
+[2023.03.02-13.29.01:427][984]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-13.29.02:867][ 64]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-13.29.02:879][ 64]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-13.29.05:350][213]LogContentBrowser: Attempting asset rename: NewFolder -> pawns
+[2023.03.02-13.29.05:350][213]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-13.29.06:567][281]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.02-13.29.06:580][281]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.02-13.29.09:418][452]LogContentBrowser: Attempting asset rename: NewFolder -> gamenodes
+[2023.03.02-13.29.09:418][452]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.02-13.29.25:626][ 32]LogContentBrowser: Attempting asset rename: gamenodes -> GameMode
+[2023.03.02-13.29.33:738][501]LogContentBrowser: Attempting asset rename: pawns -> pawns
+[2023.03.02-13.29.39:526][835]LogContentBrowser: Attempting asset rename: pawns -> Pa
+[2023.03.02-13.29.44:676][133]LogContentBrowser: Attempting asset rename: Pa -> Pawns
+[2023.03.02-13.29.50:159][449]LogContentBrowser: Attempting asset rename: actors -> A
+[2023.03.02-13.29.55:964][784]LogContentBrowser: Attempting asset rename: A -> Actors
+[2023.03.02-13.30.22:691][958]LogActorFactory: Actor Factory created Sphere
+[2023.03.02-13.30.24:327][ 56]LogActorFactory: Actor Factory created Sphere
+[2023.03.02-13.30.54:485][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.03.02-13.30.54:498][490]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto1E8E183054143F85B125639AAA181D8C0.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto1.umap'
+[2023.03.02-13.30.54:499][490]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.021
+[2023.03.02-13.30.54:499][490]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
+[2023.03.02-13.40.36:834][424]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-13.42.40:698][957]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.02-13.42.40:710][957]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.02-13.42.40:717][957]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.02-13.43.18:685][133]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.03.02-13.43.18:696][133]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.02-13.43.30:372][804]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ball_01
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.BP_ball_01:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.SKEL_BP_ball_01_C:UserConstructionScript' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.SKEL_BP_ball_01_C' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.BP_ball_01_C' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.BP_ball_01:EventGraph.K2Node_Event_0' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.BP_ball_01:EventGraph.K2Node_Event_1' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:387][804]LogMetaData: Removing '/Game/blueprints/Pawns/BP_ball_01.BP_ball_01:EventGraph.K2Node_Event_2' ref from Metadata '/Game/blueprints/Pawns/NewBlueprint.PackageMetaData'
+[2023.03.02-13.43.30:410][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Pawns/BP_ball_01" FILE="../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/blueprints/Pawns/BP_ball_01.uasset" SILENT=true
+[2023.03.02-13.43.30:415][804]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_ball_01AC7494BB497AC10D804D4585E4D3DAE4.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/blueprints/Pawns/BP_ball_01.uasset'
+[2023.03.02-13.43.30:462][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.02-13.43.30:474][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.03.02-13.43.30:477][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.03.02-13.43.30:497][804]AssetCheck: New page: Asset Save: BP_ball_01
+[2023.03.02-13.43.30:497][804]LogContentValidation: Display: Validating Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-13.43.33:204][965]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-13.43.33:364][965]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0037 seconds. Added 126 classes and 0 folders.
+[2023.03.02-13.45.46:300][611]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2023.03.02-13.45.46:301][611]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 389BAB2194F099A3EEE012E8E9F908E6EBDFCEE7), compiling. 
+[2023.03.02-13.45.46:328][611]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Normal' priority
+[2023.03.02-13.45.46:333][611]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2023.03.02-13.45.46:394][611]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.03.02-13.45.46:490][611]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 1F9C85A93659118732D900302BA1B77B1CF09054), compiling. 
+[2023.03.02-13.45.46:492][611]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9D805ABFFB7700CA07285E039B402CCFB8D3AE24), compiling. 
+[2023.03.02-13.45.46:504][611]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.02-13.45.46:508][611]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-13.45.46:554][612]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-13.45.46:653][618]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-13.45.46:957][636]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2023.03.02-13.45.46:957][636]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-13.45.47:190][649]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-13.45.47:191][649]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-13.45.47:194][649]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-13.45.47:194][649]LogShaderCompilers: Display: Total job queries 26, among them cache hits 0 (0.00%)
+[2023.03.02-13.45.47:194][649]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.03.02-13.45.47:194][649]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.03.02-13.45.47:194][649]LogShaderCompilers: Display: ================================================
+[2023.03.02-13.45.47:359][658]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-13.45.48:160][704]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.03.02-13.45.48:160][704]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2023.03.02-13.45.48:160][704]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.03.02-13.45.48:160][704]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.02-13.45.48:160][704]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.02-13.46.32:320][979]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2023.03.02-13.46.32:324][979]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2023.03.02-13.46.32:326][979]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.46.32:326][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.46.32:381][979]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.46.32:382][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.47.41:429][626]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.02-13.47.41:434][626]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.02-13.47.41:443][626]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.02-13.47.51:757][749]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.03.02-13.47.51:762][749]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.02-13.48.07:553][669]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GameMode_01
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.SKEL_BP_GameMode_01_C:UserConstructionScript' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.SKEL_BP_GameMode_01_C' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01_C' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01:EventGraph.K2Node_Event_0' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:568][669]LogMetaData: Removing '/Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01:EventGraph.K2Node_Event_1' ref from Metadata '/Game/blueprints/GameMode/NewBlueprint.PackageMetaData'
+[2023.03.02-13.48.07:599][669]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_GameMode_01A5D30E6F4627D86D35CDB6A2B5FF14CD.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/blueprints/GameMode/BP_GameMode_01.uasset'
+[2023.03.02-13.48.07:663][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.03.02-13.48.07:688][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.02-13.48.07:699][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.03.02-13.48.07:722][669]AssetCheck: New page: Asset Save: BP_GameMode_01
+[2023.03.02-13.48.07:722][669]LogContentValidation: Display: Validating Blueprint /Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01
+[2023.03.02-13.48.09:374][767]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/GameMode/BP_GameMode_01.BP_GameMode_01
+[2023.03.02-13.48.32:478][161]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-13.48.32:495][161]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-13.49.07:496][673]LogSlate: Window 'BP_GameMode_01' being destroyed
+[2023.03.02-13.49.07:500][673]LogSlate: Window 'BP_GameMode_01' being destroyed
+[2023.03.02-13.49.07:501][673]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.49.07:501][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.49.28:388][423]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.49.28:391][423]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-13.49.28:392][423]LogPlayLevel: [PlayLevel] Compiling BP_ball_01 before play...
+[2023.03.02-13.49.28:421][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.03.02-13.49.28:423][423]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2023.03.02-13.49.28:423][423]PIE: New page: PIE session: level01 (2 mar 2023, 15:49:28)
+[2023.03.02-13.49.28:424][423]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.49.28:427][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003596s)
+[2023.03.02-13.49.28:428][423]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.49.28:428][423]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2023.03.02-13.49.28:428][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004484s)
+[2023.03.02-13.49.28:440][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.03.02-13.49.28:440][423]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.49.28:441][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.49.28:441][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.49.28:441][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.49.28:441][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.49.28:441][423]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.49.28:443][423]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.49.28:443][423]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.49.28:448][423]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.49.28:448][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.49.28:448][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.49.28:448][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.49.28:449][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.49.28:449][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.49.28:449][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.49.28:450][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.49.28:450][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.49.28:450][423]LogInit: FAudioDevice initialized.
+[2023.03.02-13.49.28:450][423]LogAudio: Display: Audio Device (ID: 12) registered with world 'level01'.
+[2023.03.02-13.49.28:459][423]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.49.28:460][423]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.49.28
+[2023.03.02-13.49.28:461][423]LogWorld: Bringing up level for play took: 0.001137
+[2023.03.02-13.49.28:461][423]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.03.02-13.49.28:463][423]PIE: Server logged in
+[2023.03.02-13.49.28:463][423]PIE: Play in editor total start time 0,073 seconds.
+[2023.03.02-13.49.36:866][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.49.36:866][925]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.49.36:866][925]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.49.36:866][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.49.36:876][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.49.36:884][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.49.36:895][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.49.36:895][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.49.36:896][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.49.36:900][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.02-13.49.36:953][927]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.03.02-13.49.38:804][ 38]Cmd: SELECT NONE
+[2023.03.02-13.49.48:899][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.03.02-13.49.49:946][205]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2023.03.02-13.49.49:967][205]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.03.02-13.49.52:471][352]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2023.03.02-13.49.56:365][584]Cmd: DELETE
+[2023.03.02-13.49.56:365][584]Cmd: ACTOR DELETE
+[2023.03.02-13.49.56:367][584]LogEditorActor: Deleted Actor: PlayerStart
+[2023.03.02-13.49.56:380][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.03.02-13.49.56:382][584]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.03.02-13.49.58:417][706]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.49.58:421][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-13.49.58:421][706]PIE: New page: PIE session: level01 (2 mar 2023, 15:49:58)
+[2023.03.02-13.49.58:444][706]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.49.58:448][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003793s)
+[2023.03.02-13.49.58:449][706]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.49.58:449][706]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2023.03.02-13.49.58:449][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004746s)
+[2023.03.02-13.49.58:462][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.03.02-13.49.58:463][706]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.49.58:463][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.49.58:463][706]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.49.58:463][706]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.49.58:463][706]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.49.58:463][706]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.49.58:465][706]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.49.58:465][706]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.49.58:470][706]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.49.58:470][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.49.58:470][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.49.58:470][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.49.58:471][706]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.49.58:471][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.49.58:471][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.49.58:472][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.49.58:472][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.49.58:472][706]LogInit: FAudioDevice initialized.
+[2023.03.02-13.49.58:472][706]LogAudio: Display: Audio Device (ID: 13) registered with world 'level01'.
+[2023.03.02-13.49.58:478][706]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.49.58:479][706]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.49.58
+[2023.03.02-13.49.58:479][706]LogWorld: Bringing up level for play took: 0.000613
+[2023.03.02-13.49.58:479][706]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.03.02-13.49.58:480][706]PIE: Server logged in
+[2023.03.02-13.49.58:481][706]PIE: Play in editor total start time 0,061 seconds.
+[2023.03.02-13.50.01:634][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.01:634][893]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.50.01:635][893]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.50.01:635][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.01:645][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.50.01:648][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.01:660][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.01:660][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.01:661][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.01:665][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.03.02-13.50.01:693][894]LogSlate: Took 0.007699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.02-13.50.01:698][895]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.03.02-13.50.37:371][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.03.02-13.50.38:419][133]Cmd: DELETE
+[2023.03.02-13.50.38:419][133]Cmd: ACTOR DELETE
+[2023.03.02-13.50.38:421][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.02-13.50.38:434][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.03.02-13.50.38:435][133]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.03.02-13.50.38:810][156]LogEditorViewport: Clicking on Actor (LMB): BP_ball_01_C (BP_ball_01)
+[2023.03.02-13.50.39:083][172]Cmd: DELETE
+[2023.03.02-13.50.39:083][172]Cmd: ACTOR DELETE
+[2023.03.02-13.50.39:084][172]LogEditorActor: Deleted Actor: BP_ball_01_C
+[2023.03.02-13.50.39:096][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.03.02-13.50.39:097][172]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.03.02-13.50.39:990][225]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.50.39:997][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-13.50.39:997][225]PIE: New page: PIE session: level01 (2 mar 2023, 15:50:39)
+[2023.03.02-13.50.40:023][225]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.50.40:026][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003609s)
+[2023.03.02-13.50.40:027][225]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.50.40:027][225]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2023.03.02-13.50.40:027][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004565s)
+[2023.03.02-13.50.40:041][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.03.02-13.50.40:041][225]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.50.40:041][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.50.40:041][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.50.40:042][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.50.40:042][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.50.40:042][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.50.40:042][225]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.50.40:044][225]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.50.40:044][225]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.50.40:048][225]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.50.40:048][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.50.40:049][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.50.40:049][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.50.40:049][225]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.50.40:049][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.50.40:049][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.50.40:050][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.50.40:050][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.50.40:050][225]LogInit: FAudioDevice initialized.
+[2023.03.02-13.50.40:050][225]LogAudio: Display: Audio Device (ID: 14) registered with world 'level01'.
+[2023.03.02-13.50.40:057][225]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.50.40:057][225]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.50.40
+[2023.03.02-13.50.40:058][225]LogWorld: Bringing up level for play took: 0.000557
+[2023.03.02-13.50.40:058][225]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.03.02-13.50.40:059][225]PIE: Server logged in
+[2023.03.02-13.50.40:060][225]PIE: Play in editor total start time 0,063 seconds.
+[2023.03.02-13.50.43:810][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.43:810][448]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.50.43:811][448]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.50.43:811][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.43:817][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.50.43:820][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.43:832][448]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-13.50.43:832][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.43:833][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.43:835][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.43:837][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.03.02-13.50.43:888][450]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.02-13.50.44:922][512]Cmd: TRANSACTION UNDO
+[2023.03.02-13.50.44:922][512]LogEditorTransaction: Undo Delete Actors
+[2023.03.02-13.50.45:161][523]Cmd: TRANSACTION UNDO
+[2023.03.02-13.50.45:161][523]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.02-13.50.45:336][529]Cmd: TRANSACTION UNDO
+[2023.03.02-13.50.45:336][529]LogEditorTransaction: Undo Delete Actors
+[2023.03.02-13.50.45:493][537]Cmd: TRANSACTION UNDO
+[2023.03.02-13.50.45:493][537]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.02-13.50.45:815][555]Cmd: TRANSACTION UNDO
+[2023.03.02-13.50.45:815][555]LogEditorTransaction: Undo Delete Actors
+[2023.03.02-13.50.47:038][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2023.03.02-13.50.47:816][674]Cmd: DELETE
+[2023.03.02-13.50.47:816][674]Cmd: ACTOR DELETE
+[2023.03.02-13.50.47:818][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.02-13.50.47:831][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.03.02-13.50.47:832][674]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.03.02-13.50.48:333][704]LogEditorViewport: Clicking on Actor (LMB): BP_ball_01_C (BP_ball_01)
+[2023.03.02-13.50.48:636][722]Cmd: DELETE
+[2023.03.02-13.50.48:636][722]Cmd: ACTOR DELETE
+[2023.03.02-13.50.48:637][722]LogEditorActor: Deleted Actor: BP_ball_01_C
+[2023.03.02-13.50.48:650][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.03.02-13.50.48:650][722]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.03.02-13.50.49:937][799]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.50.49:940][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-13.50.49:940][799]PIE: New page: PIE session: level01 (2 mar 2023, 15:50:49)
+[2023.03.02-13.50.49:964][799]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.50.49:968][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003873s)
+[2023.03.02-13.50.49:969][799]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.50.49:969][799]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2023.03.02-13.50.49:969][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004849s)
+[2023.03.02-13.50.49:982][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.03.02-13.50.49:982][799]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.50.49:982][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.50.49:982][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.50.49:983][799]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.50.49:983][799]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.50.49:983][799]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.50.49:983][799]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.50.49:985][799]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.50.49:985][799]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.50.49:989][799]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.50.49:990][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.50.49:990][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.50.49:990][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.50.49:990][799]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.50.49:990][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.50.49:990][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.50.49:991][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.50.49:991][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.50.49:991][799]LogInit: FAudioDevice initialized.
+[2023.03.02-13.50.49:991][799]LogAudio: Display: Audio Device (ID: 15) registered with world 'level01'.
+[2023.03.02-13.50.49:999][799]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.50.50:000][799]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.50.50
+[2023.03.02-13.50.50:000][799]LogWorld: Bringing up level for play took: 0.000502
+[2023.03.02-13.50.50:000][799]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.03.02-13.50.50:002][799]PIE: Server logged in
+[2023.03.02-13.50.50:003][799]PIE: Play in editor total start time 0,063 seconds.
+[2023.03.02-13.50.59:128][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.59:128][345]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.50.59:128][345]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.50.59:128][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.59:140][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.50.59:143][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.50.59:155][345]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-13.50.59:155][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.59:156][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.50.59:158][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.50.59:160][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-13.50.59:212][347]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.02-13.51.01:237][467]Cmd: SELECT NONE
+[2023.03.02-13.51.13:226][724]Cmd: EDCALLBACK SURFPROPS
+[2023.03.02-13.51.41:138][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.51.41:141][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-13.51.41:141][ 75]PIE: New page: PIE session: level01 (2 mar 2023, 15:51:41)
+[2023.03.02-13.51.41:164][ 75]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.51.41:168][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004069s)
+[2023.03.02-13.51.41:169][ 75]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.51.41:169][ 75]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2023.03.02-13.51.41:169][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.005114s)
+[2023.03.02-13.51.41:183][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-13.51.41:184][ 75]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.51.41:184][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.51.41:184][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.51.41:185][ 75]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.51.41:185][ 75]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.51.41:185][ 75]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.51.41:185][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.51.41:187][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.51.41:187][ 75]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.51.41:192][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.51.41:193][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.51.41:193][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.51.41:193][ 75]LogInit: FAudioDevice initialized.
+[2023.03.02-13.51.41:193][ 75]LogAudio: Display: Audio Device (ID: 16) registered with world 'level01'.
+[2023.03.02-13.51.41:204][ 75]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.51.41:205][ 75]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.51.41
+[2023.03.02-13.51.41:205][ 75]LogWorld: Bringing up level for play took: 0.000502
+[2023.03.02-13.51.41:205][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.03.02-13.51.41:207][ 75]PIE: Server logged in
+[2023.03.02-13.51.41:208][ 75]PIE: Play in editor total start time 0,067 seconds.
+[2023.03.02-13.51.46:381][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.51.46:381][384]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.51.46:381][384]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.51.46:381][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.51.46:392][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.51.46:405][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.51.46:416][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-13.51.46:416][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.51.46:417][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.51.46:418][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.51.46:421][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.03.02-13.51.46:471][386]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.02-13.51.48:455][505]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.51.48:458][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-13.51.48:458][505]PIE: New page: PIE session: level01 (2 mar 2023, 15:51:48)
+[2023.03.02-13.51.48:503][505]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.51.48:507][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003901s)
+[2023.03.02-13.51.48:507][505]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.51.48:508][505]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2023.03.02-13.51.48:508][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004950s)
+[2023.03.02-13.51.48:521][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.03.02-13.51.48:522][505]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.51.48:522][505]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.51.48:522][505]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.51.48:522][505]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.51.48:522][505]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.51.48:522][505]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.51.48:524][505]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.51.48:524][505]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.51.48:529][505]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.51.48:529][505]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.51.48:529][505]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.51.48:529][505]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.51.48:530][505]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.51.48:530][505]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.51.48:530][505]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.51.48:531][505]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.51.48:531][505]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.51.48:531][505]LogInit: FAudioDevice initialized.
+[2023.03.02-13.51.48:531][505]LogAudio: Display: Audio Device (ID: 17) registered with world 'level01'.
+[2023.03.02-13.51.48:536][505]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.51.48:537][505]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.51.48
+[2023.03.02-13.51.48:537][505]LogWorld: Bringing up level for play took: 0.000493
+[2023.03.02-13.51.48:537][505]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2023.03.02-13.51.48:539][505]PIE: Server logged in
+[2023.03.02-13.51.48:539][505]PIE: Play in editor total start time 0,082 seconds.
+[2023.03.02-13.52.02:274][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.52.02:274][327]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.52.02:274][327]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.52.02:274][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.52.02:286][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.52.02:298][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.52.02:309][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.52.02:309][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.52.02:310][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.52.02:314][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.02-13.52.02:366][329]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.03.02-13.53.24:723][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.03.02-13.53.24:734][670]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto2D8FB093D47B4A2CAE0DDC395F5B1177E.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto2.umap'
+[2023.03.02-13.53.24:735][670]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.028
+[2023.03.02-13.53.24:735][670]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2023.03.02-13.53.24:736][670]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/Pawns/BP_ball_01] ([2] browsable assets)...
+[2023.03.02-13.53.24:760][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01]
+[2023.03.02-13.53.24:760][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/Pawns/BP_ball_01]
+[2023.03.02-13.53.24:766][670]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_ball_01_Auto2A809E6EF43D83E4654EAA485D8865488.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/blueprints/Pawns/BP_ball_01_Auto2.uasset'
+[2023.03.02-13.53.24:767][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/GameMode/BP_GameMode_01] ([2] browsable assets)...
+[2023.03.02-13.53.24:767][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/GameMode/BP_GameMode_01]
+[2023.03.02-13.53.24:770][670]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_GameMode_01_Auto2A813D1AE43170D6282BDC780FB5ABA48.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/blueprints/GameMode/BP_GameMode_01_Auto2.uasset'
+[2023.03.02-13.53.24:771][670]LogFileHelpers: Auto-saving content packages took 0.036
+[2023.03.02-13.53.51:949][987]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-13.54.53:064][124]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.54.53:068][124]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.54.53:069][124]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.54.53:069][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.54.54:157][187]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.54.54:160][187]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-13.54.54:160][187]LogPlayLevel: [PlayLevel] Compiling BP_ball_01 before play...
+[2023.03.02-13.54.54:183][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.03.02-13.54.54:185][187]LogPlayLevel: PlayLevel: Blueprint regeneration took 25 ms (1 blueprints)
+[2023.03.02-13.54.54:185][187]PIE: New page: PIE session: level01 (2 mar 2023, 15:54:54)
+[2023.03.02-13.54.54:198][187]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.54.54:202][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004037s)
+[2023.03.02-13.54.54:203][187]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.54.54:203][187]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2023.03.02-13.54.54:203][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.005017s)
+[2023.03.02-13.54.54:217][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-13.54.54:217][187]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.54.54:217][187]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.54.54:217][187]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.54.54:218][187]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.54.54:218][187]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.54.54:218][187]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.54.54:218][187]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.54.54:220][187]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.54.54:220][187]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.54.54:225][187]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.54.54:225][187]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.54.54:225][187]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.54.54:225][187]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.54.54:226][187]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.54.54:226][187]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.54.54:226][187]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.54.54:226][187]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.54.54:227][187]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.54.54:227][187]LogInit: FAudioDevice initialized.
+[2023.03.02-13.54.54:227][187]LogAudio: Display: Audio Device (ID: 18) registered with world 'level01'.
+[2023.03.02-13.54.54:235][187]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.54.54:236][187]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.54.54
+[2023.03.02-13.54.54:236][187]LogWorld: Bringing up level for play took: 0.000502
+[2023.03.02-13.54.54:236][187]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.03.02-13.54.54:238][187]PIE: Server logged in
+[2023.03.02-13.54.54:239][187]PIE: Play in editor total start time 0,079 seconds.
+[2023.03.02-13.55.15:324][568]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-13.55.45:570][344]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.55.45:574][344]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.55.45:576][344]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.55.45:576][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.55.51:703][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.55.51:703][707]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.55.51:703][707]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.55.51:703][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.55.51:711][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-13.55.51:723][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.55.51:733][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-13.55.51:734][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.55.51:735][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-13.55.51:740][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.03.02-13.55.51:793][709]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.02-13.55.54:129][848]Cmd: TRANSACTION UNDO
+[2023.03.02-13.55.54:129][848]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-13.55.56:433][974]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-13.56.05:100][466]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.56.05:104][466]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-13.56.05:105][466]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-13.56.05:105][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-13.56.06:310][536]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-13.56.06:313][536]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.02-13.56.06:313][536]LogPlayLevel: [PlayLevel] Compiling BP_ball_01 before play...
+[2023.03.02-13.56.06:335][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.03.02-13.56.06:337][536]LogPlayLevel: PlayLevel: Blueprint regeneration took 24 ms (1 blueprints)
+[2023.03.02-13.56.06:337][536]PIE: New page: PIE session: level01 (2 mar 2023, 15:56:06)
+[2023.03.02-13.56.06:369][536]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-13.56.06:373][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003742s)
+[2023.03.02-13.56.06:373][536]LogAIModule: Creating AISystem for world level01
+[2023.03.02-13.56.06:373][536]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2023.03.02-13.56.06:373][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004741s)
+[2023.03.02-13.56.06:387][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-13.56.06:387][536]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-13.56.06:387][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-13.56.06:387][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-13.56.06:388][536]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-13.56.06:388][536]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-13.56.06:388][536]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-13.56.06:388][536]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-13.56.06:390][536]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-13.56.06:390][536]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-13.56.06:394][536]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-13.56.06:395][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-13.56.06:395][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-13.56.06:395][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-13.56.06:395][536]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-13.56.06:395][536]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-13.56.06:395][536]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-13.56.06:396][536]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-13.56.06:396][536]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-13.56.06:396][536]LogInit: FAudioDevice initialized.
+[2023.03.02-13.56.06:396][536]LogAudio: Display: Audio Device (ID: 19) registered with world 'level01'.
+[2023.03.02-13.56.06:405][536]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-13.56.06:406][536]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.02-14.56.06
+[2023.03.02-13.56.06:406][536]LogWorld: Bringing up level for play took: 0.000485
+[2023.03.02-13.56.06:406][536]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2023.03.02-13.56.06:408][536]PIE: Server logged in
+[2023.03.02-13.56.06:408][536]PIE: Play in editor total start time 0,096 seconds.
+[2023.03.02-13.56.59:859][535]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.03.02-15.12.24:719][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.12.24:720][115]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-15.12.24:720][115]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-15.12.24:721][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.12.24:733][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-15.12.24:750][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.12.24:763][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.12.24:764][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.12.24:765][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.12.24:794][115]LogUObjectHash: Compacting FUObjectHashTables data took  14.77ms
+[2023.03.02-15.12.24:833][116]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.02-15.12.26:539][313]LogEditorViewport: Clicking Background
+[2023.03.02-15.12.35:365][343]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2023.03.02-15.12.56:967][461]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2023.03.02-15.13.14:996][558]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2023.03.02-15.13.20:415][152]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-15.13.20:419][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-15.13.20:419][152]PIE: New page: PIE session: level01 (2 mar 2023, 17:13:20)
+[2023.03.02-15.13.20:462][152]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-15.13.20:467][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005434s)
+[2023.03.02-15.13.20:468][152]LogAIModule: Creating AISystem for world level01
+[2023.03.02-15.13.20:468][152]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2023.03.02-15.13.20:468][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.006917s)
+[2023.03.02-15.13.20:483][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.03.02-15.13.20:488][152]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-15.13.20:488][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-15.13.20:488][152]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-15.13.20:488][152]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-15.13.20:488][152]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-15.13.20:488][152]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-15.13.20:491][152]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-15.13.20:491][152]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-15.13.20:496][152]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-15.13.20:496][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-15.13.20:496][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-15.13.20:496][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-15.13.20:497][152]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-15.13.20:497][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-15.13.20:497][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-15.13.20:498][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-15.13.20:498][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-15.13.20:498][152]LogInit: FAudioDevice initialized.
+[2023.03.02-15.13.20:498][152]LogAudio: Display: Audio Device (ID: 20) registered with world 'level01'.
+[2023.03.02-15.13.20:505][152]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-15.13.20:506][152]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 0) at 2023.03.02-16.13.20
+[2023.03.02-15.13.20:506][152]LogWorld: Bringing up level for play took: 0.000778
+[2023.03.02-15.13.20:506][152]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2023.03.02-15.13.20:509][152]PIE: Server logged in
+[2023.03.02-15.13.20:509][152]PIE: Play in editor total start time 0,091 seconds.
+[2023.03.02-15.13.24:495][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.13.24:495][623]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-15.13.24:495][623]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-15.13.24:495][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.13.24:506][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-15.13.24:516][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.13.24:526][623]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.02-15.13.24:526][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.13.24:527][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.13.24:529][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.13.24:531][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.03.02-15.13.24:561][624]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.02-15.14.10:683][999]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.02-15.14.10:686][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.02-15.14.10:686][999]PIE: New page: PIE session: level01 (2 mar 2023, 17:14:10)
+[2023.03.02-15.14.10:723][999]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.02-15.14.10:727][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004382s)
+[2023.03.02-15.14.10:728][999]LogAIModule: Creating AISystem for world level01
+[2023.03.02-15.14.10:728][999]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2023.03.02-15.14.10:728][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.005523s)
+[2023.03.02-15.14.10:742][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.03.02-15.14.10:746][999]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.02-15.14.10:746][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.02-15.14.10:746][999]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.02-15.14.10:746][999]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.02-15.14.10:746][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.02-15.14.10:746][999]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.02-15.14.10:748][999]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-15.14.10:748][999]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-15.14.10:753][999]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.02-15.14.10:754][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.02-15.14.10:754][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.02-15.14.10:754][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.02-15.14.10:754][999]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.02-15.14.10:754][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.02-15.14.10:754][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.02-15.14.10:755][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.02-15.14.10:755][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.02-15.14.10:755][999]LogInit: FAudioDevice initialized.
+[2023.03.02-15.14.10:755][999]LogAudio: Display: Audio Device (ID: 21) registered with world 'level01'.
+[2023.03.02-15.14.10:763][999]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.02-15.14.10:763][999]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 0) at 2023.03.02-16.14.10
+[2023.03.02-15.14.10:764][999]LogWorld: Bringing up level for play took: 0.000517
+[2023.03.02-15.14.10:764][999]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2023.03.02-15.14.10:765][999]PIE: Server logged in
+[2023.03.02-15.14.10:766][999]PIE: Play in editor total start time 0,08 seconds.
+[2023.03.02-15.14.18:723][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.14.18:723][940]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.02-15.14.18:723][940]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-15.14.18:724][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.14.18:730][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.02-15.14.18:741][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-15.14.18:751][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.02-15.14.18:752][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.14.18:753][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.02-15.14.18:756][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.03.02-15.14.18:812][942]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.03.02-15.14.42:185][521]LogMaterial: Display: Missing cached shadermap for T_Brick_Hewn_Stone_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5BEC97659192D0F4817FCBBD6314A6619756F23D), compiling. 
+[2023.03.02-15.14.42:205][521]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.14.42:209][521]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.14.42:209][521]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.14.42:209][521]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.14.42:222][521]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.42:311][525]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2023.03.02-15.14.42:311][525]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2023.03.02-15.14.42:312][525]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2023.03.02-15.14.42:312][525]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2023.03.02-15.14.42:312][525]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2023.03.02-15.14.42:312][525]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.03.02-15.14.42:312][525]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.42:726][538]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.02-15.14.42:726][538]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.42:735][538]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-15.14.42:736][538]LogShaderCompilers: Display: Total job queries 44, among them cache hits 2 (4.55%)
+[2023.03.02-15.14.42:736][538]LogShaderCompilers: Display: Tracking 15 distinct input hashes that result in 12 distinct outputs (80.00%)
+[2023.03.02-15.14.42:736][538]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.03.02-15.14.42:736][538]LogShaderCompilers: Display: ================================================
+[2023.03.02-15.14.42:847][543]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.03.02-15.14.42:847][543]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.45:160][752]Cmd: TRANSACTION UNDO
+[2023.03.02-15.14.45:160][752]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.14.45:165][752]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.14.45:165][752]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.14.55:418][827]Cmd: TRANSACTION UNDO
+[2023.03.02-15.14.55:418][827]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.14.55:423][827]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.14.55:423][827]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.14.58:142][ 71]LogMaterial: Display: Missing cached shadermap for T_Brick_Clay_Old_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 4C82DDA44CE19386AA1D314BC9BB6334616A3852), compiling. 
+[2023.03.02-15.14.58:155][ 71]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.14.58:156][ 71]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.14.58:156][ 71]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.14.58:156][ 71]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.03.02-15.14.58:164][ 71]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.58:592][ 82]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.02-15.14.58:592][ 82]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.58:696][ 83]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.14.58:696][ 83]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.14.59:521][142]Cmd: TRANSACTION UNDO
+[2023.03.02-15.14.59:521][142]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.14.59:525][142]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.14.59:525][142]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.15.27:372][ 24]LogMaterial: Display: Missing cached shadermap for T_CobbleStone_Smooth_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 4A50C0C38799741AA7A3DD1F5C2A0987E8F9946E), compiling. 
+[2023.03.02-15.15.27:385][ 24]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.27:394][ 24]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.15.27:394][ 24]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.15.27:394][ 24]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.27:395][ 24]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.27:475][ 28]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.27:971][ 47]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2023.03.02-15.15.27:971][ 47]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.28:057][ 52]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.02-15.15.28:057][ 52]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.28:111][ 54]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.15.28:112][ 54]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.29:029][121]Cmd: TRANSACTION UNDO
+[2023.03.02-15.15.29:029][121]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.15.29:034][121]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.15.29:034][121]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.15.32:435][440]Cmd: TRANSACTION UNDO
+[2023.03.02-15.15.32:435][440]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.15.32:439][440]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.15.32:439][440]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.15.33:309][485]LogMaterial: Display: Missing cached shadermap for T_CobbleStone_Rough_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FBA347309E3E08A304CA2F0B4197EB4DC2C739D3), compiling. 
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.03.02-15.15.33:338][486]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.33:784][496]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.02-15.15.33:785][496]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.33:908][502]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.15.33:908][502]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.37:034][821]Cmd: TRANSACTION UNDO
+[2023.03.02-15.15.37:034][821]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.15.37:039][821]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.15.37:039][821]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.15.44:629][629]Cmd: TRANSACTION UNDO
+[2023.03.02-15.15.44:629][629]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.15.44:633][629]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.15.44:633][629]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.15.59:876][231]LogMaterial: Display: Missing cached shadermap for T_Explosion_SubUV_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 694F3D54BCBAAB3AB22753577D330B69BB1CD93D), compiling. 
+[2023.03.02-15.15.59:890][231]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.15.59:897][231]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.15.59:898][231]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.16.00:405][248]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.02-15.16.00:405][248]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.16.00:514][253]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.03.02-15.16.00:514][253]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.16.01:573][324]Cmd: TRANSACTION UNDO
+[2023.03.02-15.16.01:573][324]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.16.01:578][324]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.16.01:578][324]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.16.16:984][908]Cmd: TRANSACTION UNDO
+[2023.03.02-15.16.16:984][908]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.16.16:989][908]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.16.16:989][908]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.16.27:888][ 75]LogEditorViewport: Clicking Background
+[2023.03.02-15.16.28:738][176]Cmd: TRANSACTION UNDO
+[2023.03.02-15.16.28:738][176]LogEditorTransaction: Undo Clicking Background
+[2023.03.02-15.17.01:242][714]LogEditorViewport: Clicking Background
+[2023.03.02-15.17.07:008][350]Cmd: TRANSACTION UNDO
+[2023.03.02-15.17.07:008][350]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.17.07:283][360]Cmd: TRANSACTION UNDO
+[2023.03.02-15.17.07:283][360]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_162' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_162.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_163' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_163.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_164' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_164.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_165' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_165.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_166' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_166.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_167' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_167.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:287][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_168' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:288][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_168.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.07:288][360]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_169' invalid (360 verts, 0 indices).
+[2023.03.02-15.17.07:288][360]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_169.BodySetup_0 when we are unable to.
+[2023.03.02-15.17.11:567][806]LogEditorViewport: Clicking Background
+[2023.03.02-15.18.23:280][978]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2023.03.02-15.18.29:514][677]LogMaterial: Display: Missing cached shadermap for T_Brick_Cut_Stone_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C11894B9F3B87EDEF2802FF91AC09BEE2D4BB14B), compiling. 
+[2023.03.02-15.18.29:527][677]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.18.29:531][677]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.18.29:531][677]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.02-15.18.29:531][677]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.18.29:536][677]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.02-15.18.29:624][681]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.18.29:624][681]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.18.29:625][681]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.02-15.18.30:030][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2023.03.02-15.18.30:030][693]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.18.30:046][694]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.02-15.18.30:047][694]LogShaderCompilers: Display: Total job queries 130, among them cache hits 8 (6.15%)
+[2023.03.02-15.18.30:047][694]LogShaderCompilers: Display: Tracking 95 distinct input hashes that result in 35 distinct outputs (36.84%)
+[2023.03.02-15.18.30:047][694]LogShaderCompilers: Display: RAM used: 0.20 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2023.03.02-15.18.30:047][694]LogShaderCompilers: Display: ================================================
+[2023.03.02-15.18.30:125][697]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.02-15.18.30:125][697]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.18.30:277][705]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2023.03.02-15.18.30:277][705]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.02-15.18.31:316][779]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.31:316][779]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.31:322][779]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_187' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.31:322][779]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_187.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.33:766][988]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.33:766][988]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.33:770][988]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_187' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.33:770][988]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_187.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.33:969][999]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.33:969][999]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.34:129][ 13]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:129][ 13]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.34:265][ 23]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:265][ 23]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.02-15.18.34:472][ 43]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:473][ 43]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.34:608][ 54]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:608][ 54]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.34:767][ 69]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:767][ 69]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.34:905][ 82]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.34:905][ 82]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.35:058][ 97]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:058][ 97]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.18.35:211][111]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:211][111]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.02-15.18.35:370][126]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:371][126]LogEditorTransaction: Undo Clicking on Actors
+[2023.03.02-15.18.35:536][141]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:536][141]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.35:687][154]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:687][154]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.35:830][165]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:830][165]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.35:978][179]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.35:978][179]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.36:110][191]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:110][191]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.36:285][208]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:285][208]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.36:444][223]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:444][223]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.36:452][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_162' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:452][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_162.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:452][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_163' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:452][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_163.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_164' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_164.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_165' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_165.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_166' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_166.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_167' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_167.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_168' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_168.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_169' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.36:453][223]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_169.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.36:613][237]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:613][237]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.36:795][254]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:795][254]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.36:970][273]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.36:970][273]LogEditorTransaction: Undo Clicking Background
+[2023.03.02-15.18.37:157][291]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.37:157][291]LogEditorTransaction: Undo Select Surfaces
+[2023.03.02-15.18.37:354][310]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.37:354][310]LogEditorTransaction: Undo Select Surfaces
+[2023.03.02-15.18.37:526][326]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.37:526][326]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.37:696][342]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.37:696][342]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.37:872][360]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.37:872][360]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.38:047][378]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:047][378]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.38:202][392]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:202][392]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.38:378][408]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:378][408]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.38:539][424]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:539][424]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.38:699][440]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:699][440]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.38:854][456]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.38:854][456]LogEditorTransaction: Undo Clicking Background
+[2023.03.02-15.18.39:016][470]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:016][470]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.39:173][484]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:173][484]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.39:334][500]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:334][500]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.39:482][513]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:482][513]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.39:644][529]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:644][529]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.39:799][543]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:799][543]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.39:950][558]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.39:950][558]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.40:135][577]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.40:135][577]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.40:327][597]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.40:327][597]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.40:505][614]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.40:505][614]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.40:678][629]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.40:678][629]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.40:849][645]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.40:849][645]LogEditorTransaction: Undo Select Surfaces
+[2023.03.02-15.18.49:360][638]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.49:360][638]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.49:893][656]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.49:893][656]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.53:573][ 38]Cmd: TRANSACTION REDO
+[2023.03.02-15.18.53:573][ 38]LogEditorTransaction: Redo Move Actors
+[2023.03.02-15.18.53:962][ 53]Cmd: TRANSACTION REDO
+[2023.03.02-15.18.53:962][ 53]LogEditorTransaction: Redo Move Actors
+[2023.03.02-15.18.55:837][264]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.55:837][264]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.56:128][292]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.56:128][292]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.56:389][320]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.56:389][320]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.56:653][348]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.56:653][348]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.56:898][374]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.56:898][374]LogEditorTransaction: Undo Move Actors
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_122' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_122.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_123' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_123.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_124' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_124.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_125' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_125.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_126' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_126.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_127' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_127.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_129' invalid (360 verts, 0 indices).
+[2023.03.02-15.18.56:905][374]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_129.BodySetup_0 when we are unable to.
+[2023.03.02-15.18.57:078][392]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.57:078][392]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.57:686][459]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.57:686][459]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.57:945][487]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.57:945][487]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.58:215][513]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.58:215][513]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2023.03.02-15.18.58:424][535]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.58:424][535]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.58:649][557]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.58:649][557]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.18.58:839][577]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.58:839][577]LogEditorTransaction: Undo Edit Intensity Scale
+[2023.03.02-15.18.59:032][597]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.59:032][597]LogEditorTransaction: Undo Edit Intensity Scale
+[2023.03.02-15.18.59:403][640]Cmd: TRANSACTION UNDO
+[2023.03.02-15.18.59:403][640]LogEditorTransaction: Undo Edit Intensity Scale
+[2023.03.02-15.19.00:189][731]Cmd: TRANSACTION REDO
+[2023.03.02-15.19.00:189][731]LogEditorTransaction: Redo Edit Intensity Scale
+[2023.03.02-15.19.00:579][775]Cmd: TRANSACTION REDO
+[2023.03.02-15.19.00:579][775]LogEditorTransaction: Redo Edit Intensity Scale
+[2023.03.02-15.19.01:051][830]Cmd: TRANSACTION REDO
+[2023.03.02-15.19.01:051][830]LogEditorTransaction: Redo Edit Intensity Scale
+[2023.03.02-15.19.01:611][896]Cmd: TRANSACTION REDO
+[2023.03.02-15.19.01:611][896]LogEditorTransaction: Redo Select Brush Surface
+[2023.03.02-15.19.02:422][988]Cmd: TRANSACTION UNDO
+[2023.03.02-15.19.02:422][988]LogEditorTransaction: Undo Select Brush Surface
+[2023.03.02-15.19.06:816][476]Cmd: TRANSACTION UNDO
+[2023.03.02-15.19.06:816][476]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.19.06:819][476]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.19.06:819][476]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.19.08:934][659]Cmd: TRANSACTION UNDO
+[2023.03.02-15.19.08:934][659]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.19.08:938][659]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.19.08:938][659]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.19.13:622][162]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2023.03.02-15.19.40:860][946]Cmd: TRANSACTION UNDO
+[2023.03.02-15.19.40:860][946]LogEditorTransaction: Undo Create Actors
+[2023.03.02-15.19.40:864][946]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-15.19.40:864][946]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-15.19.44:704][343]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush8)
+[2023.03.02-15.20.55:060][815]LogEditorViewport: Clicking Background
+[2023.03.02-15.21.37:462][405]LogEditorViewport: Clicking Background
+[2023.03.02-15.22.22:124][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.03.02-15.22.22:141][687]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto35F788EAE41B9D3F84D6312887BE1ECE9.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto3.umap'
+[2023.03.02-15.22.22:147][687]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.037
+[2023.03.02-15.22.22:147][687]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2023.03.02-15.22.22:148][687]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/blueprints/Pawns/BP_ball_01] ([2] browsable assets)...
+[2023.03.02-15.22.22:155][687]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01]
+[2023.03.02-15.22.22:155][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/Pawns/BP_ball_01]
+[2023.03.02-15.22.22:163][687]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_ball_01_Auto359F7324F4BD8C95E64B8F580D10C186F.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/blueprints/Pawns/BP_ball_01_Auto3.uasset'
+[2023.03.02-15.22.22:164][687]LogFileHelpers: Auto-saving content packages took 0.017
+[2023.03.02-15.37.13:110][ 38]LogAudioMixer: Resetting audio stream to device id 
+[2023.03.02-15.37.13:116][ 38]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-15.37.13:117][ 38]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-16.31.03:932][ 60]LogAudioMixer: Resetting audio stream to device id 
+[2023.03.02-16.31.03:938][ 60]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-16.31.03:938][ 60]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54D585C5-410E-E532-3E39-0DA3EA32314F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e52a813eb0 [can pipeline])
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.225.159.3) port 443 (#1))
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.02-16.40.19:883][ 75]LogHttp: Warning: 000001E5C29C8800: libcurl info message cache 7 (Closing connection 1)
+[2023.03.02-16.40.20:210][ 76]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54D585C5-410E-E532-3E39-0DA3EA32314F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.02-16.40.21:209][ 78]LogAudioMixer: Resetting audio stream to device id 
+[2023.03.02-16.40.21:215][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.02-16.40.21:215][ 78]LogAudioMixer: Display: 1: FrontRight
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54D585C5-410E-E532-3E39-0DA3EA32314F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e52a813eb0 [can pipeline])
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.212.146.22) port 443 (#2))
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.02-16.58.56:575][ 92]LogHttp: Warning: 000001E5D21EB900: libcurl info message cache 7 (Closing connection 2)
+[2023.03.02-16.58.56:576][ 92]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54D585C5-410E-E532-3E39-0DA3EA32314F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.02-17.28.03:660][870]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.02-17.28.03:724][870]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.02-17.29.09:835][651]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-17.29.09:839][651]LogSlate: Window 'Project Settings' being destroyed
+[2023.03.02-17.29.27:938][726]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Pawns/BP_ball_01.BP_ball_01
+[2023.03.02-17.30.20:242][482]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-17.30.20:245][482]LogSlate: Window 'BP_ball_01' being destroyed
+[2023.03.02-17.30.20:248][482]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.30.20:248][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.31.00:841][950]LogContentBrowser: Deferred new asset file creation: NewSlateBrushAsset
+[2023.03.02-17.31.00:850][950]LogContentBrowser: Creating deferred item: NewSlateBrushAsset
+[2023.03.02-17.31.02:236][ 34]LogContentBrowser: Attempting asset rename: NewSlateBrushAsset -> NewSlateBrushAsset
+[2023.03.02-17.31.02:242][ 34]LogContentBrowser: End creating deferred item NewSlateBrushAsset
+[2023.03.02-17.31.02:669][ 60]Cmd: TRANSACTION UNDO
+[2023.03.02-17.31.02:669][ 60]LogEditorTransaction: Undo Edit Default GameMode
+[2023.03.02-17.31.05:443][218]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2023.03.02-17.31.07:712][218]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.02-17.31.08:555][268]Cmd: TRANSACTION REDO
+[2023.03.02-17.31.08:555][268]LogEditorTransaction: Redo Edit Default GameMode
+[2023.03.02-17.31.11:508][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.02-17.31.12:689][438]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.02-17.31.12:751][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.03.02-17.31.17:525][640]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.02-17.31.17:534][640]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.02-17.31.17:542][640]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.02-17.31.25:946][145]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Crystal_01
+[2023.03.02-17.31.25:952][145]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.02-17.31.27:490][236]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-17.38.18:250][539]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.02-17.38.30:743][267]LogEditorTransaction: Undo Set Scale
+[2023.03.02-17.38.31:048][279]LogEditorTransaction: Undo Set Scale
+[2023.03.02-17.38.31:052][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_122' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:052][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_122.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:052][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_123' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_123.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_124' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_124.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_125' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_125.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_126' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_126.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_127' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_127.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_128' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_128.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/levels/level01.level01:PersistentLevel.ModelComponent_129' invalid (360 verts, 0 indices).
+[2023.03.02-17.38.31:053][279]LogPhysics: Warning: Attempt to build physics data for /Game/levels/level01.level01:PersistentLevel.ModelComponent_129.BodySetup_0 when we are unable to.
+[2023.03.02-17.38.31:470][298]LogEditorTransaction: Undo Add Component
+[2023.03.02-17.38.34:976][506]LogEditorTransaction: Redo Add Component
+[2023.03.02-17.39.26:466][487]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.02-17.39.29:437][653]LogEditorTransaction: Redo Modify Component(s)
+[2023.03.02-17.39.30:832][735]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.02-17.41.27:034][616]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.02-17.43.51:132][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2023.03.02-17.43.51:145][789]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto4459B21A648911E33A8E67892607F3B3E.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto4.umap'
+[2023.03.02-17.43.51:147][789]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.052
+[2023.03.02-17.43.51:147][789]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.052
+[2023.03.02-17.44.27:831][129]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.44.27:835][129]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.44.27:837][129]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.44.27:837][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.44.36:429][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-17.44.40:739][878]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.44.40:743][878]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.44.40:775][878]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.44.40:775][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.46.13:511][730]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-17.47.12:055][519]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.47.12:059][519]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.47.12:061][519]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.47.12:061][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.47.22:190][121]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-17.47.47:853][624]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.47.47:857][624]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.47.47:859][624]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.47.47:859][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.47.51:154][814]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Crystal_01.BP_Crystal_01
+[2023.03.02-17.48.35:880][964]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.48.35:884][964]LogSlate: Window 'BP_Crystal_01' being destroyed
+[2023.03.02-17.48.35:921][964]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.03.02-17.48.35:922][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.02-17.48.40:551][238]Cmd: TRANSACTION UNDO
+[2023.03.02-17.48.40:551][238]LogEditorTransaction: Undo Create Actors
+[2023.03.02-17.48.49:494][764]LogEditorViewport: Clicking on Actor (LMB): BP_Crystal_01_C (BP_Crystal_01)
+[2023.03.02-17.48.50:317][813]Cmd: DELETE
+[2023.03.02-17.48.50:317][813]Cmd: ACTOR DELETE
+[2023.03.02-17.48.50:319][813]LogEditorActor: Deleted Actor: BP_Crystal_01_C
+[2023.03.02-17.48.50:341][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.03.02-17.48.50:347][813]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.03.02-17.48.53:811][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Crystal_01_C (BP_Crystal_2)
+[2023.03.02-17.49.06:678][784]Cmd: SELECT NONE
+[2023.03.02-17.49.08:463][891]Cmd: SELECT NONE
+[2023.03.02-17.49.44:426][714]LogEditorViewport: Clicking Background
+[2023.03.02-17.49.47:199][879]Cmd: SELECT NONE
+[2023.03.02-17.50.06:265][  3]Cmd: SELECT NONE
+[2023.03.02-17.50.07:185][ 53]Cmd: SELECT NONE
+[2023.03.02-17.53.18:882][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/level01" FILE="../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/levels/level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.03.02-17.53.18:898][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.03.02-17.53.18:915][906]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level018BEF3FBF407C78A50F35919AB325B394.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/levels/level01.umap'
+[2023.03.02-17.53.18:938][906]AssetCheck: New page: Asset Save: level01
+[2023.03.02-17.53.18:938][906]LogContentValidation: Display: Validating World /Game/levels/level01.level01
