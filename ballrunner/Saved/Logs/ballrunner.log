@@ -1140,3 +1140,505 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.19-17.46.36:474][932]LogHttp: Warning: 0000017B9467DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2023.03.19-17.46.36:474][932]LogHttp: Warning: 0000017B9467DD00: libcurl info message cache 1 (Closing connection 3)
 [2023.03.19-17.46.36:474][932]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC06EAAF-478C-EC5D-684F-DB89BB05D0BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.19-17.47.36:489][111]LogHttp: Warning: 0000017B62C46B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC06EAAF-478C-EC5D-684F-DB89BB05D0BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.19-17.47.36:489][111]LogHttp: Warning: 0000017B62C46B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.03.19-17.47.36:489][111]LogHttp: Warning: 0000017B62C46B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.03.19-17.47.36:489][111]LogHttp: Warning: 0000017B62C46B00: libcurl info message cache 1 (Closing connection 4)
+[2023.03.19-17.47.36:823][112]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC06EAAF-478C-EC5D-684F-DB89BB05D0BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.19-17.50.31:338][504]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-17.50.31:343][504]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.19-17.50.31:343][504]LogPlayLevel: [PlayLevel] Compiling BP_RestartTrigger_01 before play...
+[2023.03.19-17.50.31:373][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.03.19-17.50.31:374][504]LogPlayLevel: PlayLevel: Blueprint regeneration took 31 ms (1 blueprints)
+[2023.03.19-17.50.31:374][504]PIE: New page: PIE session: level01 (19 mar 2023, 19:50:31)
+[2023.03.19-17.50.31:374][504]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.19-17.50.31:379][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004190s)
+[2023.03.19-17.50.31:379][504]LogAIModule: Creating AISystem for world level01
+[2023.03.19-17.50.31:379][504]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2023.03.19-17.50.31:379][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.005072s)
+[2023.03.19-17.50.31:394][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.03.19-17.50.31:394][504]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-17.50.31:394][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-17.50.31:394][504]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-17.50.31:394][504]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-17.50.31:394][504]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-17.50.31:394][504]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-17.50.31:397][504]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-17.50.31:397][504]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-17.50.31:401][504]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.19-17.50.31:402][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-17.50.31:402][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-17.50.31:402][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-17.50.31:402][504]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-17.50.31:402][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-17.50.31:402][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-17.50.31:403][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-17.50.31:403][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-17.50.31:403][504]LogInit: FAudioDevice initialized.
+[2023.03.19-17.50.31:403][504]LogAudio: Display: Audio Device (ID: 4) registered with world 'level01'.
+[2023.03.19-17.50.31:413][504]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.19-17.50.31:414][504]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.19-18.50.31
+[2023.03.19-17.50.31:414][504]LogWorld: Bringing up level for play took: 0.000789
+[2023.03.19-17.50.31:414][504]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.03.19-17.50.31:416][504]PIE: Server logged in
+[2023.03.19-17.50.31:416][504]PIE: Play in editor total start time 0,074 seconds.
+[2023.03.19-17.51.05:033][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-17.51.05:033][419]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.19-17.51.05:034][419]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-17.51.05:034][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-17.51.05:047][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-17.51.05:060][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-17.51.05:073][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-17.51.05:074][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-17.51.05:075][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-17.51.05:079][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.19-17.51.05:097][420]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.03.19-17.55.08:774][585]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2023.03.19-17.55.08:774][585]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] Delay  cannot be placed in function graph
+[2023.03.19-17.55.08:774][585]BlueprintLog: New page: Collapse to Function
+[2023.03.19-17.55.08:774][585]BlueprintLog: Error: Delay  cannot be placed in function graph
+[2023.03.19-17.55.35:850][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.03.19-17.55.35:863][840]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto2B2DBAE1B47EB6FF095F4AE9CCBC8D75D.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto2.umap'
+[2023.03.19-17.55.35:864][840]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.032
+[2023.03.19-17.55.35:864][840]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2023.03.19-17.55.48:160][ 42]BlueprintLog: New page: Collapse to Macro
+[2023.03.19-18.02.58:357][830]LogSlate: Window 'BP_RestartTrigger_01' being destroyed
+[2023.03.19-18.02.58:361][830]LogSlate: Window 'BP_RestartTrigger_01' being destroyed
+[2023.03.19-18.02.58:363][830]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.02.58:363][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.03.02:389][  6]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.19-18.03.02:396][  6]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.19-18.03.02:406][  6]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.19-18.03.09:595][438]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Cannon_01
+[2023.03.19-18.03.09:599][438]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.19-18.05.36:452][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.03.19-18.05.36:467][922]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto3C4D983534A405D8C8A2702BD3F17C4DC.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto3.umap'
+[2023.03.19-18.05.36:468][922]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.032
+[2023.03.19-18.05.36:468][922]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC06EAAF-478C-EC5D-684F-DB89BB05D0BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17b20502d70 [can pipeline])
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.197.153.148) port 443 (#5))
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: 0000017B11D05600: libcurl info message cache 7 (Closing connection 5)
+[2023.03.19-18.15.09:948][534]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC06EAAF-478C-EC5D-684F-DB89BB05D0BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0ef2120a486ff1180e45878c659ee07b%7C578716140a294f58b4a46a1b6016b3d2%7C82ddad06-5756-4f88-8684-7032ee6a9046&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.03.19-18.16.24:462][588]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.03.19-18.16.24:477][588]LogContentBrowser: Creating deferred item: NewFolder
+[2023.03.19-18.16.27:730][784]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2023.03.19-18.16.27:731][784]LogContentBrowser: End creating deferred item NewFolder
+[2023.03.19-18.16.46:078][ 23]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\benma\Desktop\Cannon_Base.fbx)
+[2023.03.19-18.16.46:101][ 23]LogFbx: Loading FBX Scene from C:\Users\benma\Desktop\Cannon_Base.fbx
+[2023.03.19-18.16.46:109][ 23]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.19-18.16.50:726][ 23]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.03.19-18.16.50:752][ 23]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\Mikey\Downloads\TexturesCom_Metal_PaintedGun_1K_albedo.tif
+[2023.03.19-18.16.50:753][ 23]LogMaterial: Display: Missing cached shadermap for Gun_Metal in PCD3D_SM5, Default, SM5 (DDC key hash: 548B5361F4B180F809125AFD76AF207C6FD870F1), compiling. 
+[2023.03.19-18.16.50:756][ 23]LogFbx: Display: Triangulating static mesh Cannon
+[2023.03.19-18.16.50:772][ 23]LogStaticMesh: Building static mesh Cannon_Base...
+[2023.03.19-18.16.50:790][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Cannon_Base.Cannon_Base
+[2023.03.19-18.16.50:805][ 23]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\benma\Desktop\Cannon.fbx)
+[2023.03.19-18.16.50:835][ 23]LogFbx: Loading FBX Scene from C:\Users\benma\Desktop\Cannon.fbx
+[2023.03.19-18.16.50:840][ 23]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.19-18.16.50:840][ 23]LogFbx: Display: Triangulating static mesh Cannon.001
+[2023.03.19-18.16.50:858][ 23]LogStaticMesh: Building static mesh Cannon...
+[2023.03.19-18.16.50:873][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Cannon.Cannon
+[2023.03.19-18.16.50:953][ 27]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.16.50:953][ 27]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.19-18.16.50:953][ 27]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.19-18.16.50:953][ 27]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.16.50:975][ 27]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2023.03.19-18.16.51:039][ 28]LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Normal' priority
+[2023.03.19-18.16.51:643][ 57]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2023.03.19-18.16.51:643][ 57]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.19-18.16.51:655][ 57]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.19-18.16.51:655][ 57]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2023.03.19-18.16.51:655][ 57]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.03.19-18.16.51:655][ 57]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.03.19-18.16.51:655][ 57]LogShaderCompilers: Display: ================================================
+[2023.03.19-18.16.51:746][ 63]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2023.03.19-18.16.51:746][ 63]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.03.19-18.17.01:676][655]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.03:329][754]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.03:913][789]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.04:760][838]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.04:760][838]LogEditorTransaction: Undo Create Actors
+[2023.03.19-18.17.12:455][279]LogActorFactory: Actor Factory created Cannon
+[2023.03.19-18.17.13:171][322]LogActorFactory: Actor Factory created Cannon
+[2023.03.19-18.17.14:067][374]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.14:587][405]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.18:352][630]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.18:352][630]LogEditorTransaction: Undo Move Actors
+[2023.03.19-18.17.18:629][643]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.18:629][643]LogEditorTransaction: Undo Create Actors
+[2023.03.19-18.17.18:957][656]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.18:958][656]LogEditorTransaction: Undo Create Actors
+[2023.03.19-18.17.20:131][724]LogActorFactory: Actor Factory created Cannon
+[2023.03.19-18.17.22:051][839]LogActorFactory: Actor Factory created Cannon
+[2023.03.19-18.17.23:455][920]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.26:299][ 90]LogActorFactory: Actor Factory created Cannon_Base
+[2023.03.19-18.17.30:029][313]Cmd: DELETE
+[2023.03.19-18.17.30:029][313]Cmd: ACTOR DELETE
+[2023.03.19-18.17.30:032][313]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.03.19-18.17.30:046][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.03.19-18.17.30:052][313]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.03.19-18.17.30:792][358]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.30:792][358]LogEditorTransaction: Undo Delete Actors
+[2023.03.19-18.17.31:128][372]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.31:128][372]LogEditorTransaction: Undo Create Actors
+[2023.03.19-18.17.31:512][390]Cmd: TRANSACTION UNDO
+[2023.03.19-18.17.31:512][390]LogEditorTransaction: Undo Create Actors
+[2023.03.19-18.17.56:548][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.03.19-18.17.56:561][738]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto4B50FB4B34AAC4DA7C204F381515B78E1.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto4.umap'
+[2023.03.19-18.17.56:563][738]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.027
+[2023.03.19-18.17.56:563][738]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.027
+[2023.03.19-18.17.56:563][738]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Cannon_Base] ([1] browsable assets)...
+[2023.03.19-18.17.56:570][738]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Cannon_Base.Cannon_Base]
+[2023.03.19-18.17.56:570][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Cannon_Base]
+[2023.03.19-18.17.56:578][738]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Cannon_Base_Auto439EE7A7B40AACEA74123F38EAD133454.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Base_Auto4.uasset'
+[2023.03.19-18.17.56:578][738]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Cannon] ([1] browsable assets)...
+[2023.03.19-18.17.56:586][738]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Cannon.Cannon]
+[2023.03.19-18.17.56:586][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Cannon]
+[2023.03.19-18.17.56:586][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Cannon" FILE="../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.03.19-18.17.56:593][738]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Cannon_Auto4686A0A4C4F8448E8EF0201B907DB9E35.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Auto4.uasset'
+[2023.03.19-18.17.56:594][738]LogFileHelpers: Auto-saving content packages took 0.031
+[2023.03.19-18.18.06:336][321]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Cannon_01.BP_Cannon_01
+[2023.03.19-18.18.18:538][ 19]LogRenderer: Reallocating scene render targets to support 908x536 Format 10 NumSamples 1 (Frame:172).
+[2023.03.19-18.18.25:826][398]LogContentBrowser: Deferred new asset file creation: NewLandscapeGrassType
+[2023.03.19-18.18.25:836][398]LogContentBrowser: Creating deferred item: NewLandscapeGrassType
+[2023.03.19-18.18.29:645][499]LogContentBrowser: Attempting asset rename: NewLandscapeGrassType -> NewLandscapeGrassType
+[2023.03.19-18.18.29:647][499]LogContentBrowser: End creating deferred item NewLandscapeGrassType
+[2023.03.19-18.18.33:858][750]LogActorFactory: Actor Factory created Cannon
+[2023.03.19-18.18.47:117][487]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.18.47:398][499]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.20.09:088][434]Cmd: TRANSACTION UNDO
+[2023.03.19-18.20.09:088][434]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.20.09:410][445]Cmd: TRANSACTION UNDO
+[2023.03.19-18.20.09:410][445]LogEditorTransaction: Undo Make New Scene Root
+[2023.03.19-18.20.10:090][480]Cmd: TRANSACTION UNDO
+[2023.03.19-18.20.10:090][480]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.20.32:789][827]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Meshes/Gun_Metal.Gun_Metal
+[2023.03.19-18.20.32:795][827]LogMaterial: Display: Missing cached shadermap for Gun_Metal in PCD3D_SM5, Default, SM5 (DDC key hash: D14DCCC29B15582632F48F42B8B7E4C1E364E809), compiling. 
+[2023.03.19-18.20.32:818][827]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.19-18.20.32:818][827]LogShaderCompilers: Display: Total job queries 26, among them cache hits 10 (38.46%)
+[2023.03.19-18.20.32:818][827]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2023.03.19-18.20.32:818][827]LogShaderCompilers: Display: RAM used: 0.06 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.03.19-18.20.32:818][827]LogShaderCompilers: Display: ================================================
+[2023.03.19-18.20.32:823][827]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2023.03.19-18.20.32:902][827]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.03.19-18.20.32:997][827]LogMaterial: Display: Missing cached shadermap for Gun_Metal in PCD3D_SM5, Default, SM5 (DDC key hash: 0A0BC2F3C3B455F605B1AA6C1B273CF1830A7D29), compiling. 
+[2023.03.19-18.20.32:999][827]LogMaterial: Display: Missing cached shadermap for Gun_Metal in PCD3D_SM5, Default, SM5 (DDC key hash: 50B168AA52161369177B0D2A16C80B4A1531AC21), compiling. 
+[2023.03.19-18.20.33:001][827]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 24EFB8483C09896D1A71F3957FD22908E93C8F94), compiling. 
+[2023.03.19-18.20.33:011][827]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.19-18.20.33:083][829]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.20.33:083][829]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.19-18.20.33:083][829]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.19-18.20.33:083][829]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.20.33:085][829]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.19-18.20.33:085][829]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.19-18.20.33:085][829]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.19-18.20.33:085][829]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.19-18.21.29:490][720]LogEditorFactories: Warning: -- cannot reimport: source file cannot be found.
+[2023.03.19-18.21.29:495][720]LogEditorFactories: Warning: -- cannot reimport: source file cannot be found.
+[2023.03.19-18.22.23:531][757]LogSlate: Window 'Gun_Metal' being destroyed
+[2023.03.19-18.22.23:535][757]LogSlate: Window 'Gun_Metal' being destroyed
+[2023.03.19-18.22.23:538][757]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.22.23:538][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.22.23:590][757]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.22.23:590][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.22.28:494][ 12]LogEditorFactories: Performing atomic reimport of [C:/Users/benma/Desktop/Cannon_Base.fbx]
+[2023.03.19-18.22.28:524][ 12]LogFbx: Loading FBX Scene from C:/Users/benma/Desktop/Cannon_Base.fbx
+[2023.03.19-18.22.28:528][ 12]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.19-18.22.28:556][ 12]LogFbx: Display: Triangulating static mesh Cannon
+[2023.03.19-18.22.28:590][ 12]LogStaticMesh: Building static mesh Cannon_Base...
+[2023.03.19-18.22.28:606][ 12]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Cannon_Base.Cannon_Base
+[2023.03.19-18.22.28:617][ 12]LogEditorFactories: -- imported successfully
+[2023.03.19-18.24.42:354][203]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Meshes/Gun_Metal.Gun_Metal
+[2023.03.19-18.24.42:359][203]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 90A48993E5559B6B345996812BE003AA431233BC), compiling. 
+[2023.03.19-18.24.42:366][203]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2023.03.19-18.24.42:415][203]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 71133B0E294F69AB695855A0F1BCB7B1E4DCAE45), compiling. 
+[2023.03.19-18.24.42:417][203]LogMaterial: Display: Missing cached shadermap for PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 318A5BCA3524C4A27D4879FAFFABC406750DEEB3), compiling. 
+[2023.03.19-18.24.42:418][203]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C530FB6B535645DDFA672258E9B84AE3756071C0), compiling. 
+[2023.03.19-18.24.42:433][203]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.03.19-18.24.42:472][204]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.03.19-18.24.42:491][205]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.19-18.24.42:491][205]LogShaderCompilers: Display: Total job queries 62, among them cache hits 24 (38.71%)
+[2023.03.19-18.24.42:491][205]LogShaderCompilers: Display: Tracking 18 distinct input hashes that result in 14 distinct outputs (77.78%)
+[2023.03.19-18.24.42:491][205]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.03.19-18.24.42:491][205]LogShaderCompilers: Display: ================================================
+[2023.03.19-18.24.43:245][249]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.19-18.24.43:727][278]MaterialEditorStats: Base pass shader: 119 instructions
+[2023.03.19-18.24.43:727][278]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2023.03.19-18.24.43:727][278]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2023.03.19-18.24.43:727][278]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.19-18.24.44:577][329]LogSlate: Window 'Gun_Metal' being destroyed
+[2023.03.19-18.24.44:581][329]LogSlate: Window 'Gun_Metal' being destroyed
+[2023.03.19-18.24.44:584][329]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.24.44:584][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.24.52:477][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.03.19-18.24.54:827][800]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.19-18.24.54:888][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.03.19-18.24.58:652][ 25]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Cannon_01.BP_Cannon_01
+[2023.03.19-18.27.57:113][880]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2023.03.19-18.27.57:114][880]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.077
+[2023.03.19-18.27.57:114][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Cannon_Base] ([1] browsable assets)...
+[2023.03.19-18.27.57:131][880]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Cannon_Base.Cannon_Base]
+[2023.03.19-18.27.57:131][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Cannon_Base]
+[2023.03.19-18.27.57:138][880]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Cannon_Base_Auto5F24AD7724E5FF9F82721C4B790921AC7.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Base_Auto5.uasset'
+[2023.03.19-18.27.57:143][880]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/Cannon] ([1] browsable assets)...
+[2023.03.19-18.27.57:143][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Cannon]
+[2023.03.19-18.27.57:143][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Cannon" FILE="../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.03.19-18.27.57:148][880]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Cannon_Auto56C708C1B4E52D1DF02CFF4BA522095D1.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/Meshes/Cannon_Auto5.uasset'
+[2023.03.19-18.27.57:149][880]LogFileHelpers: Auto-saving content packages took 0.035
+[2023.03.19-18.28.12:795][ 17]LogSlate: Window 'BP_Cannon_01' being destroyed
+[2023.03.19-18.28.12:798][ 17]LogSlate: Window 'BP_Cannon_01' being destroyed
+[2023.03.19-18.28.12:800][ 17]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.28.12:800][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.28.58:026][618]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.19-18.28.58:033][618]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.19-18.28.58:045][618]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.19-18.29.04:696][  8]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Projectiles
+[2023.03.19-18.29.04:699][  8]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.19-18.29.06:805][133]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Projectiles.BP_Projectiles
+[2023.03.19-18.30.38:813][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Cannon_01.BP_Cannon_01
+[2023.03.19-18.31.31:599][329]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.31.32:177][350]LogEditorTransaction: Undo Add Component
+[2023.03.19-18.31.34:232][473]LogEditorTransaction: Redo Add Component
+[2023.03.19-18.31.34:680][499]LogEditorTransaction: Redo Add Component
+[2023.03.19-18.31.48:334][315]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.19-18.31.58:048][886]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.19-18.31.59:989][991]LogEditorTransaction: Redo Modify Component(s)
+[2023.03.19-18.34.01:566][771]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.19-18.34.01:584][771]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.19-18.35.23:506][151]LogEditorTransaction: Undo Add Node
+[2023.03.19-18.36.47:159][365]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-18.36.47:164][365]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.19-18.36.47:165][365]LogPlayLevel: [PlayLevel] Compiling BP_RestartTrigger_01 before play...
+[2023.03.19-18.36.47:178][365]LogPlayLevel: [PlayLevel] Compiling BP_Cannon_01 before play...
+[2023.03.19-18.36.47:213][365]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
+[2023.03.19-18.36.47:298][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.03.19-18.36.47:300][365]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (3 blueprints)
+[2023.03.19-18.36.47:300][365]PIE: New page: PIE session: level01 (19 mar 2023, 20:36:47)
+[2023.03.19-18.36.47:300][365]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.36.47:305][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004556s)
+[2023.03.19-18.36.47:305][365]LogAIModule: Creating AISystem for world level01
+[2023.03.19-18.36.47:306][365]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2023.03.19-18.36.47:306][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.005504s)
+[2023.03.19-18.36.47:361][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.03.19-18.36.47:361][365]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-18.36.47:361][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-18.36.47:361][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-18.36.47:362][365]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-18.36.47:362][365]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-18.36.47:362][365]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-18.36.47:362][365]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-18.36.47:364][365]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-18.36.47:364][365]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-18.36.47:369][365]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.19-18.36.47:369][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-18.36.47:369][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-18.36.47:369][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-18.36.47:370][365]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-18.36.47:370][365]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-18.36.47:370][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-18.36.47:371][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-18.36.47:371][365]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-18.36.47:371][365]LogInit: FAudioDevice initialized.
+[2023.03.19-18.36.47:371][365]LogAudio: Display: Audio Device (ID: 5) registered with world 'level01'.
+[2023.03.19-18.36.47:380][365]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.19-18.36.47:381][365]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.19-19.36.47
+[2023.03.19-18.36.47:381][365]LogWorld: Bringing up level for play took: 0.000821
+[2023.03.19-18.36.47:381][365]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.03.19-18.36.47:383][365]PIE: Server logged in
+[2023.03.19-18.36.47:383][365]PIE: Play in editor total start time 0,22 seconds.
+[2023.03.19-18.36.50:249][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.36.50:249][534]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.36.50:249][534]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.36.50:252][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.36.50:265][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-18.36.50:273][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.36.50:288][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.36.50:289][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.36.50:290][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.36.50:294][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.03.19-18.36.50:328][536]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.03.19-18.36.53:060][699]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_RestartTrigger_01.BP_RestartTrigger_01
+[2023.03.19-18.37.13:382][895]LogSlate: Window 'BP_RestartTrigger_01' being destroyed
+[2023.03.19-18.37.13:386][895]LogSlate: Window 'BP_RestartTrigger_01' being destroyed
+[2023.03.19-18.37.13:390][895]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.37.13:390][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.37.13:438][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.03.19-18.37.13:438][895]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.37.13:438][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.37.13:488][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.03.19-18.37.13:488][895]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.37.13:488][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.37.17:170][112]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-18.37.17:174][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-18.37.17:174][112]PIE: New page: PIE session: level01 (19 mar 2023, 20:37:17)
+[2023.03.19-18.37.17:174][112]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.37.17:178][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004083s)
+[2023.03.19-18.37.17:179][112]LogAIModule: Creating AISystem for world level01
+[2023.03.19-18.37.17:179][112]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2023.03.19-18.37.17:179][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004961s)
+[2023.03.19-18.37.17:194][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.03.19-18.37.17:198][112]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-18.37.17:198][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-18.37.17:198][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-18.37.17:199][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-18.37.17:199][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-18.37.17:199][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-18.37.17:199][112]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-18.37.17:201][112]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-18.37.17:201][112]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-18.37.17:206][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-18.37.17:206][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-18.37.17:207][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-18.37.17:207][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-18.37.17:207][112]LogInit: FAudioDevice initialized.
+[2023.03.19-18.37.17:207][112]LogAudio: Display: Audio Device (ID: 6) registered with world 'level01'.
+[2023.03.19-18.37.17:216][112]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.19-18.37.17:217][112]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.19-19.37.17
+[2023.03.19-18.37.17:217][112]LogWorld: Bringing up level for play took: 0.000823
+[2023.03.19-18.37.17:217][112]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.03.19-18.37.17:219][112]PIE: Server logged in
+[2023.03.19-18.37.17:219][112]PIE: Play in editor total start time 0,046 seconds.
+[2023.03.19-18.37.30:658][358]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/Actors/BP_Projectiles.BP_Projectiles
+[2023.03.19-18.37.52:457][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.37.52:457][611]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.37.52:458][611]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.37.52:798][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.37.52:804][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-18.37.52:816][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.37.52:831][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-18.37.52:832][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.37.52:833][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.37.52:835][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.37.52:849][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.03.19-18.37.52:877][612]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.19-18.38.45:610][645]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.03.19-18.38.45:627][645]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/level01_Auto6FF0440C24F9744165408BE89D3A80AE8.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/Autosaves/Game/levels/level01_Auto6.umap'
+[2023.03.19-18.38.45:629][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/level01' took 0.036
+[2023.03.19-18.38.45:629][645]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2023.03.19-18.40.11:634][503]LogContentBrowser: Attempting asset rename: BP_Projectiles -> BP_Projectiles_01
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.SKEL_BP_Projectiles_01_C' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01_C' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01:EventGraph.K2Node_Event_0' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01:EventGraph.K2Node_Event_1' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01:EventGraph.K2Node_Event_2' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01_C:ReceiveTick' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.SKEL_BP_Projectiles_01_C:ReceiveTick' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:653][503]LogMetaData: Removing '/Game/blueprints/Actors/BP_Projectiles_01.SKEL_BP_Projectiles_01_C:UserConstructionScript' ref from Metadata '/Game/blueprints/Actors/BP_Projectiles.PackageMetaData'
+[2023.03.19-18.40.11:691][503]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_Projectiles_014AEC80BB46D819BE6BCC24B1B7556B3F.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/blueprints/Actors/BP_Projectiles_01.uasset'
+[2023.03.19-18.40.11:756][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.19-18.40.11:783][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.03.19-18.40.11:796][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.03.19-18.40.11:827][503]AssetCheck: New page: Asset Save: BP_Projectiles_01
+[2023.03.19-18.40.11:827][503]LogContentValidation: Display: Validating Blueprint /Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01
+[2023.03.19-18.40.31:012][924]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.19-18.40.31:016][924]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.19-18.40.31:017][924]LogPlayLevel: [PlayLevel] Compiling BP_RestartTrigger_01 before play...
+[2023.03.19-18.40.31:027][924]LogPlayLevel: [PlayLevel] Compiling BP_Cannon_01 before play...
+[2023.03.19-18.40.31:038][924]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles_01 before play...
+[2023.03.19-18.40.31:067][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.03.19-18.40.31:070][924]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (3 blueprints)
+[2023.03.19-18.40.31:070][924]PIE: New page: PIE session: level01 (19 mar 2023, 20:40:31)
+[2023.03.19-18.40.31:070][924]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.40.31:074][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003932s)
+[2023.03.19-18.40.31:075][924]LogAIModule: Creating AISystem for world level01
+[2023.03.19-18.40.31:075][924]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2023.03.19-18.40.31:075][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/level01.level01 to /Game/levels/UEDPIE_0_level01.level01 (0.004795s)
+[2023.03.19-18.40.31:090][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.03.19-18.40.31:090][924]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-18.40.31:090][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-18.40.31:090][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-18.40.31:091][924]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-18.40.31:091][924]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-18.40.31:091][924]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-18.40.31:091][924]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-18.40.31:093][924]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-18.40.31:093][924]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-18.40.31:098][924]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2023.03.19-18.40.31:098][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-18.40.31:098][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-18.40.31:098][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-18.40.31:099][924]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-18.40.31:099][924]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-18.40.31:099][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-18.40.31:100][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-18.40.31:100][924]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-18.40.31:100][924]LogInit: FAudioDevice initialized.
+[2023.03.19-18.40.31:100][924]LogAudio: Display: Audio Device (ID: 7) registered with world 'level01'.
+[2023.03.19-18.40.31:105][924]LogLoad: Game class is 'BP_GameMode_01_C'
+[2023.03.19-18.40.31:106][924]LogWorld: Bringing World /Game/levels/UEDPIE_0_level01.level01 up for play (max tick rate 60) at 2023.03.19-19.40.31
+[2023.03.19-18.40.31:106][924]LogWorld: Bringing up level for play took: 0.000848
+[2023.03.19-18.40.31:106][924]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.03.19-18.40.31:107][924]PIE: Server logged in
+[2023.03.19-18.40.31:108][924]PIE: Play in editor total start time 0,092 seconds.
+[2023.03.19-18.40.34:323][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.40.34:323][115]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_level01
+[2023.03.19-18.40.34:324][115]LogWorld: UWorld::CleanupWorld for level01, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.40.34:325][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.40.34:334][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-18.40.34:347][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-18.40.34:359][115]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-18.40.34:361][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.40.34:362][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-18.40.34:363][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-18.40.34:367][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.03.19-18.40.34:390][116]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.19-18.41.09:523][511]LogSavePackage: Moving '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Saved/BP_Projectiles_016B576AAE4778B7BAAF0AE5A62DA7D4EF.tmp' to '../../../../../../Users/benma/Documents/GitHub/ballrunner/ballrunner/Content/blueprints/Actors/BP_Projectiles_01.uasset'
+[2023.03.19-18.41.09:535][511]AssetCheck: New page: Asset Save: BP_Projectiles_01
+[2023.03.19-18.41.09:535][511]LogContentValidation: Display: Validating Blueprint /Game/blueprints/Actors/BP_Projectiles_01.BP_Projectiles_01
+[2023.03.19-18.41.18:494][813]LogSlate: Window 'BP_Projectiles_01' being destroyed
+[2023.03.19-18.41.18:497][813]LogSlate: Window 'BP_Projectiles_01' being destroyed
+[2023.03.19-18.41.18:501][813]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-18.41.18:501][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
